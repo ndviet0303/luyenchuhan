@@ -60,7 +60,10 @@
         </button>
       </nav>
 
-      <div class="header-actions">
+      <div class="header-actions" style="display:flex; align-items:center; gap:0.8rem;">
+        <button @click="openAddWordModal" class="btn btn-primary btn-sm btn-glow tooltip" data-tooltip="Thêm từ mới vào HSK (Pass: 111)" style="display:flex; align-items:center; gap:0.4rem; padding:0.4rem 0.8rem;">
+          <span>➕ Thêm từ</span>
+        </button>
         <button @click="switchTab('dict')" class="icon-btn tooltip" data-tooltip="Sổ tay từ vựng">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
           <span class="bookmark-count">{{ savedWords.length }}</span>
@@ -116,6 +119,7 @@
             <div class="vocab-actions-bar" @click.stop>
               <button class="btn btn-primary btn-sm btn-practice-vocab" @click.stop="selectWord(word)">📖 Chi tiết</button>
               <button class="btn btn-icon btn-sm tooltip" data-tooltip="Nghe phát âm" @click.stop="speak(word.simplified)">🔊</button>
+              <button class="btn btn-icon btn-sm tooltip" data-tooltip="Chỉnh sửa từ (Pass: 111)" @click.stop="openEditWordModal(word, currentLevel)">✏️</button>
               <button class="btn btn-icon btn-sm bookmark-action tooltip" :class="{ saved: isSaved(word.simplified) }" data-tooltip="Lưu sổ tay" @click.stop="toggleBookmark(word.simplified)">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" :fill="isSaved(word.simplified) ? 'currentColor' : 'none'" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
               </button>
@@ -370,6 +374,9 @@
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
                       Chi tiết 📖
                     </button>
+                    <button class="btn btn-outline btn-sm tooltip" data-tooltip="Chỉnh sửa từ (Pass: 111)" @click.stop="openEditWordModal(w, w.level || 1)">
+                      ✏️ Sửa từ
+                    </button>
                     <button class="btn btn-outline btn-sm bookmark-action tooltip" :class="{ saved: isSaved(w.simplified || w.char) }" data-tooltip="Lưu sổ tay" @click.stop="toggleBookmark(w.simplified || w.char)">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" :fill="isSaved(w.simplified || w.char) ? 'currentColor' : 'none'" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
                       {{ isSaved(w.simplified || w.char) ? 'Đã lưu' : 'Lưu sổ tay' }}
@@ -437,6 +444,9 @@
                   <button class="btn btn-primary btn-sm" @click.stop="loadCharFromDict(w.simplified)">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
                     Chi tiết 📖
+                  </button>
+                  <button class="btn btn-outline btn-sm tooltip" data-tooltip="Chỉnh sửa từ (Pass: 111)" @click.stop="openEditWordModal(w, w.level || 1)">
+                    ✏️ Sửa từ
                   </button>
                   <button class="btn btn-outline btn-sm bookmark-action tooltip" :class="{ saved: isSaved(w.simplified) }" data-tooltip="Lưu sổ tay" @click.stop="toggleBookmark(w.simplified)">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" :fill="isSaved(w.simplified) ? 'currentColor' : 'none'" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
@@ -602,6 +612,71 @@
     </div>
   </div>
 
+  <!-- Add / Edit Word Modal -->
+  <div class="practice-modal" :class="{ active: showAddModal }">
+    <div class="modal-backdrop" @click="closeAddModal"></div>
+    <div class="modal-container glass-panel" style="max-width: 600px; padding: 2rem; max-height: 90vh; overflow-y: auto;">
+      <div class="modal-header" style="margin-bottom: 1.5rem;">
+        <h3 style="color:#38bdf8; display:flex; align-items:center; gap:0.5rem;">
+          <span>{{ newWordForm.isEdit ? '✏️ Chỉnh Sửa Từ Vựng' : '➕ Thêm Từ Vựng Mới' }}</span>
+        </h3>
+        <button @click="closeAddModal" class="btn-close-modal tooltip" data-tooltip="Đóng (ESC)">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <div class="form-grid" style="display:flex; flex-direction:column; gap:1.2rem; text-align:left;">
+        <div class="form-group">
+          <label style="display:block; margin-bottom:0.4rem; color:#93c5fd; font-weight:bold;">🔑 Mã xác nhận (Mật khẩu)*</label>
+          <input v-model="adminPass" type="password" placeholder="Nhập mã bảo mật (Pass là 111)..." class="custom-input" style="width:100%; padding:0.8rem; border-radius:8px; border:1px solid rgba(255,255,255,0.2); background:rgba(0,0,0,0.5); color:white;">
+        </div>
+
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:1rem;">
+          <div class="form-group">
+            <label style="display:block; margin-bottom:0.4rem; color:#93c5fd; font-weight:bold;">Chữ Hán (Simplified)*</label>
+            <input v-model="newWordForm.simplified" type="text" placeholder="Ví dụ: 喜欢, 学习..." :disabled="newWordForm.isEdit" class="custom-input" style="width:100%; padding:0.8rem; border-radius:8px; border:1px solid rgba(255,255,255,0.2); background:rgba(0,0,0,0.5); color:white;">
+          </div>
+          <div class="form-group">
+            <label style="display:block; margin-bottom:0.4rem; color:#93c5fd; font-weight:bold;">Pinyin*</label>
+            <input v-model="newWordForm.pinyin" type="text" placeholder="Ví dụ: xǐ huān..." class="custom-input" style="width:100%; padding:0.8rem; border-radius:8px; border:1px solid rgba(255,255,255,0.2); background:rgba(0,0,0,0.5); color:white;">
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:1rem;">
+          <div class="form-group">
+            <label style="display:block; margin-bottom:0.4rem; color:#93c5fd; font-weight:bold;">Nghĩa tiếng Việt*</label>
+            <input v-model="newWordForm.vi" type="text" placeholder="Ví dụ: thích, yêu thích..." class="custom-input" style="width:100%; padding:0.8rem; border-radius:8px; border:1px solid rgba(255,255,255,0.2); background:rgba(0,0,0,0.5); color:white;">
+          </div>
+          <div class="form-group">
+            <label style="display:block; margin-bottom:0.4rem; color:#93c5fd; font-weight:bold;">Nghĩa tiếng Anh (Tùy chọn)</label>
+            <input v-model="newWordForm.english" type="text" placeholder="Ví dụ: to like, be fond of..." class="custom-input" style="width:100%; padding:0.8rem; border-radius:8px; border:1px solid rgba(255,255,255,0.2); background:rgba(0,0,0,0.5); color:white;">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label style="display:block; margin-bottom:0.4rem; color:#93c5fd; font-weight:bold;">Cấp độ HSK*</label>
+          <select v-model="newWordForm.level" class="custom-input" style="width:100%; padding:0.8rem; border-radius:8px; border:1px solid rgba(255,255,255,0.2); background:rgba(15,23,42,0.95); color:white;">
+            <option :value="1">HSK 1</option>
+            <option :value="2">HSK 2</option>
+            <option :value="3">HSK 3</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label style="display:block; margin-bottom:0.4rem; color:#93c5fd; font-weight:bold;">Ví dụ minh họa (Tùy chọn)</label>
+          <input v-model="newWordForm.exampleCn" type="text" placeholder="Câu tiếng Trung (Vd: 我喜欢看书。)" class="custom-input mb-1" style="width:100%; padding:0.8rem; margin-bottom:0.5rem; border-radius:8px; border:1px solid rgba(255,255,255,0.2); background:rgba(0,0,0,0.5); color:white;">
+          <input v-model="newWordForm.examplePy" type="text" placeholder="Pinyin (Vd: Wǒ xǐhuān kàn shū.)" class="custom-input mb-1" style="width:100%; padding:0.8rem; margin-bottom:0.5rem; border-radius:8px; border:1px solid rgba(255,255,255,0.2); background:rgba(0,0,0,0.5); color:white;">
+          <input v-model="newWordForm.exampleVi" type="text" placeholder="Nghĩa tiếng Việt (Vd: Tôi thích đọc sách.)" class="custom-input" style="width:100%; padding:0.8rem; border-radius:8px; border:1px solid rgba(255,255,255,0.2); background:rgba(0,0,0,0.5); color:white;">
+        </div>
+
+        <div style="display:flex; justify-content:flex-end; gap:1rem; margin-top:1rem;">
+          <button @click="closeAddModal" class="btn btn-outline" style="padding: 0.8rem 1.5rem;">Hủy bỏ</button>
+          <button @click="saveCustomWord" class="btn btn-primary btn-glow" style="padding: 0.8rem 2rem;">Lưu Từ Vựng 💾</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Toast Message -->
   <div class="toast-container" :class="{ show: toast.visible }">
     <div class="toast-content">
@@ -643,6 +718,14 @@ const practiceWordObj = ref(null);
 const practiceCharIndex = ref(0);
 const charCompletedStatus = reactive({});
 const expandedDict = reactive({});
+
+// Add/Edit Word Modal State
+const showAddModal = ref(false);
+const adminPass = ref('');
+const newWordForm = ref({
+  simplified: '', pinyin: '', vi: '', english: '', level: 1, exampleCn: '', examplePy: '', exampleVi: '', isEdit: false
+});
+const customWords = ref(JSON.parse(localStorage.getItem('hsk_custom_words') || '[]'));
 
 const practiceMistakes = ref(0);
 const quizCompleted = ref(false);
@@ -978,7 +1061,9 @@ const engToViDict = {
 };
 
 const getVietnameseMeaning = (w) => {
-  if (!w || !w.english) return '';
+  if (!w) return '';
+  if (w.vi) return w.vi;
+  if (!w.english) return '';
   const eng = w.english.toLowerCase().trim();
   if (engToViDict[eng]) return engToViDict[eng];
   
@@ -1205,6 +1290,9 @@ const getDynamicExamples = (w) => {
 
 const getExamplesFor = (wordText, wordObj) => {
   if (!wordText) return [];
+  if (wordObj && wordObj.exampleCn) {
+    return [{ cn: wordObj.exampleCn, py: wordObj.examplePy || '', vi: wordObj.exampleVi || '' }];
+  }
   const w = wordText.trim();
   if (richSentenceDictionary[w]) return richSentenceDictionary[w];
   
@@ -1328,6 +1416,92 @@ const showToast = (text) => {
   setTimeout(() => { toast.visible = false; }, 3000);
 };
 
+// Add/Edit Modal Helpers
+const openAddWordModal = () => {
+  newWordForm.value = {
+    simplified: '', pinyin: '', vi: '', english: '', level: Number(currentLevel.value) || 1, exampleCn: '', examplePy: '', exampleVi: '', isEdit: false
+  };
+  adminPass.value = '';
+  showAddModal.value = true;
+};
+
+const openEditWordModal = (w, level = 1) => {
+  newWordForm.value = {
+    simplified: w.simplified || w.char,
+    pinyin: w.pinyin || '',
+    vi: w.vi || getVietnameseMeaning(w) || '',
+    english: w.english || '',
+    level: Number(level) || Number(currentLevel.value) || 1,
+    exampleCn: w.exampleCn || '',
+    examplePy: w.examplePy || '',
+    exampleVi: w.exampleVi || '',
+    isEdit: true
+  };
+  
+  if (!w.exampleCn) {
+    const exList = getExamplesFor(w.simplified || w.char, w);
+    if (exList && exList.length > 0) {
+      newWordForm.value.exampleCn = exList[0].cn;
+      newWordForm.value.examplePy = exList[0].py;
+      newWordForm.value.exampleVi = exList[0].vi;
+    }
+  }
+  adminPass.value = '';
+  showAddModal.value = true;
+};
+
+const closeAddModal = () => { showAddModal.value = false; };
+
+const saveCustomWord = () => {
+  if (adminPass.value !== '111') {
+    showToast('❌ Mật khẩu không chính xác! (Pass là 111)');
+    return;
+  }
+  const form = newWordForm.value;
+  if (!form.simplified.trim() || !form.pinyin.trim() || !form.vi.trim()) {
+    showToast('⚠️ Vui lòng điền đủ Chữ Hán, Pinyin và Nghĩa tiếng Việt!');
+    return;
+  }
+  
+  const lvl = Number(form.level);
+  if (!hskData[lvl]) hskData[lvl] = [];
+  
+  const wordObj = {
+    simplified: form.simplified.trim(),
+    pinyin: form.pinyin.trim(),
+    vi: form.vi.trim(),
+    english: form.english.trim() || form.vi.trim(),
+    level: lvl,
+    exampleCn: form.exampleCn.trim(),
+    examplePy: form.examplePy.trim(),
+    exampleVi: form.exampleVi.trim()
+  };
+  
+  if (wordObj.english) {
+    engToViDict[wordObj.english.toLowerCase()] = wordObj.vi;
+  }
+  
+  const existIdx = hskData[lvl].findIndex(w => w.simplified === wordObj.simplified);
+  if (existIdx !== -1) {
+    hskData[lvl][existIdx] = { ...hskData[lvl][existIdx], ...wordObj };
+  } else {
+    hskData[lvl].unshift(wordObj);
+  }
+  
+  const cwList = customWords.value;
+  const cwIdx = cwList.findIndex(w => w.simplified === wordObj.simplified);
+  if (cwIdx !== -1) {
+    cwList[cwIdx] = { ...cwList[cwIdx], ...wordObj };
+  } else {
+    cwList.unshift(wordObj);
+  }
+  localStorage.setItem('hsk_custom_words', JSON.stringify(cwList));
+  customWords.value = cwList;
+  
+  showToast(`🎉 ${form.isEdit ? 'Cập nhật' : 'Thêm mới'} từ [${wordObj.simplified}] thành công!`);
+  showAddModal.value = false;
+};
+
 // Practice Modal Helper
 const openPracticeForWord = (word, wordObj = null) => {
   if (!word) return;
@@ -1408,17 +1582,19 @@ const showNextHint = () => {
 
 // Lifecycle
 onMounted(async () => {
-  // Load Han Viet map
-  try {
-    const hvRes = await fetch('https://raw.githubusercontent.com/vanvuvuong/japanese_anki_generator/master/data/hanviet.json');
-    if (hvRes.ok) Object.assign(hanvietMap, await hvRes.json());
-  } catch (err) { console.log('Hanviet load error'); }
+  const baseUrl = import.meta.env.BASE_URL || '/';
 
-  // Load HSK
+  // Load Han Viet map from local
+  try {
+    const hvRes = await fetch(`${baseUrl}data/hanviet.json`);
+    if (hvRes.ok) Object.assign(hanvietMap, await hvRes.json());
+  } catch (err) { console.log('Hanviet load error:', err); }
+
+  // Load HSK from local
   const hskUrls = {
-    1: 'https://raw.githubusercontent.com/koynoyno/hsk3.0-json/main/hsk1.json',
-    2: 'https://raw.githubusercontent.com/koynoyno/hsk3.0-json/main/hsk2.json',
-    3: 'https://raw.githubusercontent.com/koynoyno/hsk3.0-json/main/hsk3.json'
+    1: `${baseUrl}data/hsk1.json`,
+    2: `${baseUrl}data/hsk2.json`,
+    3: `${baseUrl}data/hsk3.json`
   };
 
   try {
@@ -1431,9 +1607,21 @@ onMounted(async () => {
     }
     loadingVocab.value = false;
   } catch (err) {
-    console.error('HSK Fetch Error:', err);
+    console.error('HSK Local Fetch Error:', err);
     loadingVocab.value = false;
   }
+
+  // Load custom words from localStorage into reactive hskData
+  customWords.value.forEach(cw => {
+    const lvl = Number(cw.level) || 1;
+    if (!hskData[lvl]) hskData[lvl] = [];
+    const existIdx = hskData[lvl].findIndex(w => w.simplified === cw.simplified);
+    if (existIdx !== -1) {
+      hskData[lvl][existIdx] = { ...hskData[lvl][existIdx], ...cw };
+    } else {
+      hskData[lvl].unshift(cw);
+    }
+  });
 
   loadCharacter('赢');
 });

@@ -1,0 +1,4300 @@
+{
+  "words": [
+    {
+      "simplified": "啊",
+      "pinyin": "ā",
+      "vi": "a, chà, à",
+      "english": "a, chà, à"
+    },
+    {
+      "simplified": "爱情",
+      "pinyin": "àiqíng",
+      "vi": "tình yêu",
+      "english": "tình yêu"
+    },
+    {
+      "simplified": "安静",
+      "pinyin": "ānjìng",
+      "vi": "yên lặng",
+      "english": "yên lặng"
+    },
+    {
+      "simplified": "爱人",
+      "pinyin": "àirén",
+      "vi": "vợ/ chồng",
+      "english": "vợ/ chồng"
+    },
+    {
+      "simplified": "安全",
+      "pinyin": "ānquán",
+      "vi": "an toàn",
+      "english": "an toàn"
+    },
+    {
+      "simplified": "白色",
+      "pinyin": "báisè",
+      "vi": "màu trắng",
+      "english": "màu trắng"
+    },
+    {
+      "simplified": "班长",
+      "pinyin": "bānzhǎng",
+      "vi": "lớp trưởng",
+      "english": "lớp trưởng"
+    },
+    {
+      "simplified": "办",
+      "pinyin": "bàn",
+      "vi": "làm",
+      "english": "làm"
+    },
+    {
+      "simplified": "办法",
+      "pinyin": "bànfǎ",
+      "vi": "cách, phương pháp",
+      "english": "cách, phương pháp"
+    },
+    {
+      "simplified": "办公室",
+      "pinyin": "bàngōngshì",
+      "vi": "phòng làm việc",
+      "english": "phòng làm việc"
+    },
+    {
+      "simplified": "半夜",
+      "pinyin": "bànyè",
+      "vi": "nửa đêm",
+      "english": "nửa đêm"
+    },
+    {
+      "simplified": "帮助",
+      "pinyin": "bāngzhù",
+      "vi": "giúp đỡ",
+      "english": "giúp đỡ"
+    },
+    {
+      "simplified": "报名",
+      "pinyin": "bào//míng",
+      "vi": "đăng kí, báo danh",
+      "english": "đăng kí, báo danh"
+    },
+    {
+      "simplified": "报纸",
+      "pinyin": "bàozhǐ",
+      "vi": "báo (giấy)",
+      "english": "báo (giấy)"
+    },
+    {
+      "simplified": "北方",
+      "pinyin": "běifāng",
+      "vi": "phương Bắc",
+      "english": "phương Bắc"
+    },
+    {
+      "simplified": "背",
+      "pinyin": "bèi",
+      "vi": "đọc thuộc",
+      "english": "đọc thuộc"
+    },
+    {
+      "simplified": "比如",
+      "pinyin": "bǐrú",
+      "vi": "ví dụ",
+      "english": "ví dụ"
+    },
+    {
+      "simplified": "比如说",
+      "pinyin": "bǐrúshuō",
+      "vi": "Nói ví dụ như…",
+      "english": "Nói ví dụ như…"
+    },
+    {
+      "simplified": "笔",
+      "pinyin": "bǐ",
+      "vi": "bút",
+      "english": "bút"
+    },
+    {
+      "simplified": "笔记",
+      "pinyin": "bǐjì",
+      "vi": "ghi chép",
+      "english": "ghi chép"
+    },
+    {
+      "simplified": "笔记本",
+      "pinyin": "bǐjìběn",
+      "vi": "vở ghi chép",
+      "english": "vở ghi chép"
+    },
+    {
+      "simplified": "必须",
+      "pinyin": "bìxū",
+      "vi": "nhất định, phải",
+      "english": "nhất định, phải"
+    },
+    {
+      "simplified": "边",
+      "pinyin": "biān",
+      "vi": "viền, cạnh bên",
+      "english": "viền, cạnh bên"
+    },
+    {
+      "simplified": "变",
+      "pinyin": "biàn",
+      "vi": "thay đổi",
+      "english": "thay đổi"
+    },
+    {
+      "simplified": "变成",
+      "pinyin": "biànchéng",
+      "vi": "trở thành, biến thành, thành ra",
+      "english": "trở thành, biến thành, thành ra"
+    },
+    {
+      "simplified": "表",
+      "pinyin": "biǎo",
+      "vi": "đồng hồ",
+      "english": "đồng hồ"
+    },
+    {
+      "simplified": "表示",
+      "pinyin": "biǎoshì",
+      "vi": "bày tỏ, thể hiện",
+      "english": "bày tỏ, thể hiện"
+    },
+    {
+      "simplified": "不错",
+      "pinyin": "bùcuò",
+      "vi": "ổn, không tồi",
+      "english": "ổn, không tồi"
+    },
+    {
+      "simplified": "不但",
+      "pinyin": "bùdàn",
+      "vi": "không những…, không chỉ….",
+      "english": "không những…, không chỉ…."
+    },
+    {
+      "simplified": "不够",
+      "pinyin": "bùgòu",
+      "vi": "chưa đủ",
+      "english": "chưa đủ"
+    },
+    {
+      "simplified": "不过",
+      "pinyin": "bùguò",
+      "vi": "chẳng qua, nhưng mà",
+      "english": "chẳng qua, nhưng mà"
+    },
+    {
+      "simplified": "不太",
+      "pinyin": "bù tài",
+      "vi": "không quá",
+      "english": "không quá"
+    },
+    {
+      "simplified": "不要",
+      "pinyin": "bùyào",
+      "vi": "không cần, đừng",
+      "english": "không cần, đừng"
+    },
+    {
+      "simplified": "不好意思",
+      "pinyin": "bù hǎoyìsi",
+      "vi": "ngại quá, thật là ngại",
+      "english": "ngại quá, thật là ngại"
+    },
+    {
+      "simplified": "不久",
+      "pinyin": "bùjiǔ",
+      "vi": "không lâu",
+      "english": "không lâu"
+    },
+    {
+      "simplified": "不满",
+      "pinyin": "bùmǎn",
+      "vi": "bất mãn, không hài lòng",
+      "english": "bất mãn, không hài lòng"
+    },
+    {
+      "simplified": "不如",
+      "pinyin": "bùrú",
+      "vi": "chẳng bằng, hay là",
+      "english": "chẳng bằng, hay là"
+    },
+    {
+      "simplified": "不少",
+      "pinyin": "bù shǎo",
+      "vi": "không ít, nhiều",
+      "english": "không ít, nhiều"
+    },
+    {
+      "simplified": "不行",
+      "pinyin": "bùxíng",
+      "vi": "không ổn, không được",
+      "english": "không ổn, không được"
+    },
+    {
+      "simplified": "不一定",
+      "pinyin": "bùyīdìng",
+      "vi": "chưa chắc",
+      "english": "chưa chắc"
+    },
+    {
+      "simplified": "不一会儿",
+      "pinyin": "bù yīhuìr",
+      "vi": "không lâu sau, mới một lát",
+      "english": "không lâu sau, mới một lát"
+    },
+    {
+      "simplified": "部分",
+      "pinyin": "bùfèn",
+      "vi": "phần",
+      "english": "phần"
+    },
+    {
+      "simplified": "才",
+      "pinyin": "cái",
+      "vi": "(đến lúc đó) mới",
+      "english": "(đến lúc đó) mới"
+    },
+    {
+      "simplified": "菜单",
+      "pinyin": "càidān",
+      "vi": "thực đơn",
+      "english": "thực đơn"
+    },
+    {
+      "simplified": "参观",
+      "pinyin": "cānguān",
+      "vi": "tham quan",
+      "english": "tham quan"
+    },
+    {
+      "simplified": "参加",
+      "pinyin": "cānjiā",
+      "vi": "tham gia",
+      "english": "tham gia"
+    },
+    {
+      "simplified": "草",
+      "pinyin": "cǎo",
+      "vi": "cỏ",
+      "english": "cỏ"
+    },
+    {
+      "simplified": "草地",
+      "pinyin": "cǎodì",
+      "vi": "bãi cỏ",
+      "english": "bãi cỏ"
+    },
+    {
+      "simplified": "层",
+      "pinyin": "céng",
+      "vi": "tầng, lớp",
+      "english": "tầng, lớp"
+    },
+    {
+      "simplified": "査",
+      "pinyin": "chá",
+      "vi": "tìm, tra cứu",
+      "english": "tìm, tra cứu"
+    },
+    {
+      "simplified": "差不多",
+      "pinyin": "chàbùduō",
+      "vi": "đại khái, xấp xỉ",
+      "english": "đại khái, xấp xỉ"
+    },
+    {
+      "simplified": "常见",
+      "pinyin": "cháng jiàn",
+      "vi": "thường thấy",
+      "english": "thường thấy"
+    },
+    {
+      "simplified": "常用",
+      "pinyin": "cháng yòng",
+      "vi": "thường dùng, thông dụng",
+      "english": "thường dùng, thông dụng"
+    },
+    {
+      "simplified": "场",
+      "pinyin": "chǎng",
+      "vi": "sân, bãi, cuộc",
+      "english": "sân, bãi, cuộc"
+    },
+    {
+      "simplified": "超过",
+      "pinyin": "chāoguò",
+      "vi": "hơn, vượt qua",
+      "english": "hơn, vượt qua"
+    },
+    {
+      "simplified": "超市",
+      "pinyin": "chāoshì",
+      "vi": "siêu thị",
+      "english": "siêu thị"
+    },
+    {
+      "simplified": "车辆",
+      "pinyin": "chēliàng",
+      "vi": "xe/ phương tiện giao thông",
+      "english": "xe/ phương tiện giao thông"
+    },
+    {
+      "simplified": "称",
+      "pinyin": "chēng",
+      "vi": "gọi, xưng hô",
+      "english": "gọi, xưng hô"
+    },
+    {
+      "simplified": "成",
+      "pinyin": "chéng",
+      "vi": "thành, hoàn thành",
+      "english": "thành, hoàn thành"
+    },
+    {
+      "simplified": "成绩",
+      "pinyin": "chéngjì",
+      "vi": "thành tích, thành tựu",
+      "english": "thành tích, thành tựu"
+    },
+    {
+      "simplified": "成为",
+      "pinyin": "chéngwéi",
+      "vi": "trở thành, biến thành",
+      "english": "trở thành, biến thành"
+    },
+    {
+      "simplified": "重复",
+      "pinyin": "chóngfù",
+      "vi": "lặp lại, trùng lặp",
+      "english": "lặp lại, trùng lặp"
+    },
+    {
+      "simplified": "重新",
+      "pinyin": "chóngxīn",
+      "vi": "làm lại từ đầu",
+      "english": "làm lại từ đầu"
+    },
+    {
+      "simplified": "出发",
+      "pinyin": "chūfā",
+      "vi": "xuất phát",
+      "english": "xuất phát"
+    },
+    {
+      "simplified": "出口",
+      "pinyin": "chū kǒu",
+      "vi": "lối ra",
+      "english": "lối ra"
+    },
+    {
+      "simplified": "出门",
+      "pinyin": "chū//mén",
+      "vi": "đi ra ngoài, ra khỏi nhà",
+      "english": "đi ra ngoài, ra khỏi nhà"
+    },
+    {
+      "simplified": "出生",
+      "pinyin": "chūshēng",
+      "vi": "sinh ra, ra đời",
+      "english": "sinh ra, ra đời"
+    },
+    {
+      "simplified": "出现",
+      "pinyin": "chūxiàn",
+      "vi": "xuất hiện",
+      "english": "xuất hiện"
+    },
+    {
+      "simplified": "出院",
+      "pinyin": "chū//yuàn",
+      "vi": "xuất viện, ra viện",
+      "english": "xuất viện, ra viện"
+    },
+    {
+      "simplified": "出租",
+      "pinyin": "chū zū",
+      "vi": "cho thuê, cho mướn",
+      "english": "cho thuê, cho mướn"
+    },
+    {
+      "simplified": "出租车",
+      "pinyin": "chū zū chē",
+      "vi": "xe cho thuê",
+      "english": "xe cho thuê"
+    },
+    {
+      "simplified": "船",
+      "pinyin": "chuán",
+      "vi": "thuyền, tàu",
+      "english": "thuyền, tàu"
+    },
+    {
+      "simplified": "吹",
+      "pinyin": "chuī",
+      "vi": "thổi, hà hơi, sấy",
+      "english": "thổi, hà hơi, sấy"
+    },
+    {
+      "simplified": "春节",
+      "pinyin": "Chūnjié",
+      "vi": "Tết âm lịch, tết Nguyên Đán",
+      "english": "Tết âm lịch, tết Nguyên Đán"
+    },
+    {
+      "simplified": "春天",
+      "pinyin": "chūntiān",
+      "vi": "mùa xuân",
+      "english": "mùa xuân"
+    },
+    {
+      "simplified": "词",
+      "pinyin": "cí",
+      "vi": "từ",
+      "english": "từ"
+    },
+    {
+      "simplified": "词典",
+      "pinyin": "cídiǎn",
+      "vi": "từ điển",
+      "english": "từ điển"
+    },
+    {
+      "simplified": "从小",
+      "pinyin": "cóngxiǎo",
+      "vi": "từ nhỏ, từ bé",
+      "english": "từ nhỏ, từ bé"
+    },
+    {
+      "simplified": "答应",
+      "pinyin": "dāying",
+      "vi": "trả lời, đồng ý",
+      "english": "trả lời, đồng ý"
+    },
+    {
+      "simplified": "打工",
+      "pinyin": "dǎ//gōng",
+      "vi": "làm công, làm thêm",
+      "english": "làm công, làm thêm"
+    },
+    {
+      "simplified": "打算",
+      "pinyin": "dǎ·suàn",
+      "vi": "định; dự toán",
+      "english": "định; dự toán"
+    },
+    {
+      "simplified": "打印",
+      "pinyin": "dǎyìn",
+      "vi": "in, photo",
+      "english": "in, photo"
+    },
+    {
+      "simplified": "大部分",
+      "pinyin": "dàbùfèn",
+      "vi": "đa số, phần lớn",
+      "english": "đa số, phần lớn"
+    },
+    {
+      "simplified": "大大",
+      "pinyin": "dàdà",
+      "vi": "rất, cực kỳ, vượt bậc",
+      "english": "rất, cực kỳ, vượt bậc"
+    },
+    {
+      "simplified": "大多数",
+      "pinyin": "dàduōshù",
+      "vi": "đại đa số, phần lớn, số đông",
+      "english": "đại đa số, phần lớn, số đông"
+    },
+    {
+      "simplified": "大海",
+      "pinyin": "dàhǎi",
+      "vi": "biển cả, đại dương",
+      "english": "biển cả, đại dương"
+    },
+    {
+      "simplified": "大家",
+      "pinyin": "dàjiā",
+      "vi": "mọi người",
+      "english": "mọi người"
+    },
+    {
+      "simplified": "大量",
+      "pinyin": "dàliàng",
+      "vi": "nhiều, lượng lớn, hàng loạt",
+      "english": "nhiều, lượng lớn, hàng loạt"
+    },
+    {
+      "simplified": "大门",
+      "pinyin": "dàmén",
+      "vi": "cổng, cửa chính",
+      "english": "cổng, cửa chính"
+    },
+    {
+      "simplified": "大人",
+      "pinyin": "dàrén",
+      "vi": "người lớn",
+      "english": "người lớn"
+    },
+    {
+      "simplified": "大小",
+      "pinyin": "dàxiǎo",
+      "vi": "khổ, cỡ",
+      "english": "khổ, cỡ"
+    },
+    {
+      "simplified": "大衣",
+      "pinyin": "dàyī",
+      "vi": "áo khoác ngoài",
+      "english": "áo khoác ngoài"
+    },
+    {
+      "simplified": "大自然",
+      "pinyin": "dàzìrán",
+      "vi": "thiên nhiên, giới thiên nhiên",
+      "english": "thiên nhiên, giới thiên nhiên"
+    },
+    {
+      "simplified": "带",
+      "pinyin": "dài",
+      "vi": "mang theo, đem theo, dẫn",
+      "english": "mang theo, đem theo, dẫn"
+    },
+    {
+      "simplified": "带来",
+      "pinyin": "dài·lái",
+      "vi": "đem lại, mang tới",
+      "english": "đem lại, mang tới"
+    },
+    {
+      "simplified": "单位",
+      "pinyin": "dānwèi",
+      "vi": "đơn vị",
+      "english": "đơn vị"
+    },
+    {
+      "simplified": "但",
+      "pinyin": "dàn",
+      "vi": "nhưng",
+      "english": "nhưng"
+    },
+    {
+      "simplified": "但是",
+      "pinyin": "dànshì",
+      "vi": "nhưng mà",
+      "english": "nhưng mà"
+    },
+    {
+      "simplified": "蛋",
+      "pinyin": "dàn",
+      "vi": "trứng",
+      "english": "trứng"
+    },
+    {
+      "simplified": "当",
+      "pinyin": "dāng",
+      "vi": "làm, đảm nhiệm",
+      "english": "làm, đảm nhiệm"
+    },
+    {
+      "simplified": "当时",
+      "pinyin": "dāngshí",
+      "vi": "lúc đó, khi đó",
+      "english": "lúc đó, khi đó"
+    },
+    {
+      "simplified": "倒",
+      "pinyin": "dǎo",
+      "vi": "ngã, đổ",
+      "english": "ngã, đổ"
+    },
+    {
+      "simplified": "到处",
+      "pinyin": "dàochù",
+      "vi": "khắp nơi, mọi nơi",
+      "english": "khắp nơi, mọi nơi"
+    },
+    {
+      "simplified": "道",
+      "pinyin": "dào",
+      "vi": "con đường, đường",
+      "english": "con đường, đường"
+    },
+    {
+      "simplified": "道理",
+      "pinyin": "dào·lǐ",
+      "vi": "đạo lý",
+      "english": "đạo lý"
+    },
+    {
+      "simplified": "道路",
+      "pinyin": "dàolù",
+      "vi": "đường, đường phố",
+      "english": "đường, đường phố"
+    },
+    {
+      "simplified": "得",
+      "pinyin": "de",
+      "vi": "biểu thị khả năng, sự có thể",
+      "english": "biểu thị khả năng, sự có thể"
+    },
+    {
+      "simplified": "得出",
+      "pinyin": "déchū",
+      "vi": "thu được, đạt được",
+      "english": "thu được, đạt được"
+    },
+    {
+      "simplified": "的话",
+      "pinyin": "dehuà",
+      "vi": "nếu….",
+      "english": "nếu…."
+    },
+    {
+      "simplified": "得",
+      "pinyin": "dé",
+      "vi": "được, nhận được",
+      "english": "được, nhận được"
+    },
+    {
+      "simplified": "灯",
+      "pinyin": "dēng",
+      "vi": "đèn",
+      "english": "đèn"
+    },
+    {
+      "simplified": "等",
+      "pinyin": "děng",
+      "vi": "trợ từ biểu thị sự liệt kê",
+      "english": "trợ từ biểu thị sự liệt kê"
+    },
+    {
+      "simplified": "等到",
+      "pinyin": "děngdào",
+      "vi": "đến lúc, đến khi",
+      "english": "đến lúc, đến khi"
+    },
+    {
+      "simplified": "等于",
+      "pinyin": "děngyú",
+      "vi": "bằng, là",
+      "english": "bằng, là"
+    },
+    {
+      "simplified": "低",
+      "pinyin": "dī",
+      "vi": "thấp",
+      "english": "thấp"
+    },
+    {
+      "simplified": "地球",
+      "pinyin": "dìqiú",
+      "vi": "Trái Đất, địa cầu",
+      "english": "Trái Đất, địa cầu"
+    },
+    {
+      "simplified": "地铁站",
+      "pinyin": "dìtiězhàn",
+      "vi": "ga tàu điện ngầm",
+      "english": "ga tàu điện ngầm"
+    },
+    {
+      "simplified": "点头",
+      "pinyin": "diǎntóu",
+      "vi": "gật đầu",
+      "english": "gật đầu"
+    },
+    {
+      "simplified": "店",
+      "pinyin": "diàn",
+      "vi": "tiệm, quán, cửa hàng",
+      "english": "tiệm, quán, cửa hàng"
+    },
+    {
+      "simplified": "掉",
+      "pinyin": "diào",
+      "vi": "rơi, rớt, mất",
+      "english": "rơi, rớt, mất"
+    },
+    {
+      "simplified": "东北",
+      "pinyin": "dōngběi",
+      "vi": "Đông Bắc",
+      "english": "Đông Bắc"
+    },
+    {
+      "simplified": "东方",
+      "pinyin": "dōngfāng",
+      "vi": "phương Đông",
+      "english": "phương Đông"
+    },
+    {
+      "simplified": "东南",
+      "pinyin": "dōngnán",
+      "vi": "đông nam",
+      "english": "đông nam"
+    },
+    {
+      "simplified": "冬天",
+      "pinyin": "dōngtiān",
+      "vi": "mùa đông",
+      "english": "mùa đông"
+    },
+    {
+      "simplified": "懂",
+      "pinyin": "dǒng",
+      "vi": "hiểu",
+      "english": "hiểu"
+    },
+    {
+      "simplified": "懂得",
+      "pinyin": "dǒngde",
+      "vi": "hiểu được",
+      "english": "hiểu được"
+    },
+    {
+      "simplified": "动物",
+      "pinyin": "dòngwù",
+      "vi": "động vật",
+      "english": "động vật"
+    },
+    {
+      "simplified": "动物园",
+      "pinyin": "dòngwùyuán",
+      "vi": "vườn bách thú, sở thú",
+      "english": "vườn bách thú, sở thú"
+    },
+    {
+      "simplified": "读音",
+      "pinyin": "dúyīn",
+      "vi": "cách đọc, âm đọc",
+      "english": "cách đọc, âm đọc"
+    },
+    {
+      "simplified": "短",
+      "pinyin": "duǎn",
+      "vi": "ngắn",
+      "english": "ngắn"
+    },
+    {
+      "simplified": "短信",
+      "pinyin": "duǎnxìn",
+      "vi": "tin nhắn",
+      "english": "tin nhắn"
+    },
+    {
+      "simplified": "段",
+      "pinyin": "duàn",
+      "vi": "đoạn, quãng, khúc",
+      "english": "đoạn, quãng, khúc"
+    },
+    {
+      "simplified": "队",
+      "pinyin": "duì",
+      "vi": "đội, nhóm",
+      "english": "đội, nhóm"
+    },
+    {
+      "simplified": "队长",
+      "pinyin": "duì zhǎng",
+      "vi": "đội trưởng, nhóm trưởng",
+      "english": "đội trưởng, nhóm trưởng"
+    },
+    {
+      "simplified": "对",
+      "pinyin": "duì",
+      "vi": "đối với, đối đãi",
+      "english": "đối với, đối đãi"
+    },
+    {
+      "simplified": "对话",
+      "pinyin": "duìhuà",
+      "vi": "đối thoại, hội thoại",
+      "english": "đối thoại, hội thoại"
+    },
+    {
+      "simplified": "对面",
+      "pinyin": "duìmiàn",
+      "vi": "đối diện",
+      "english": "đối diện"
+    },
+    {
+      "simplified": "多",
+      "pinyin": "duō",
+      "vi": "bao nhiêu, to nhường nào",
+      "english": "bao nhiêu, to nhường nào"
+    },
+    {
+      "simplified": "多久",
+      "pinyin": "duōjiǔ",
+      "vi": "bao lâu",
+      "english": "bao lâu"
+    },
+    {
+      "simplified": "多么",
+      "pinyin": "duōme",
+      "vi": "bao nhiêu, bao xa",
+      "english": "bao nhiêu, bao xa"
+    },
+    {
+      "simplified": "发现",
+      "pinyin": "fāxiàn",
+      "vi": "phát hiện",
+      "english": "phát hiện"
+    },
+    {
+      "simplified": "多数",
+      "pinyin": "duōshù",
+      "vi": "đa số, phần đông, số nhiều",
+      "english": "đa số, phần đông, số nhiều"
+    },
+    {
+      "simplified": "而且",
+      "pinyin": "érqiě",
+      "vi": "mà còn, với lại, hơn nữa",
+      "english": "mà còn, với lại, hơn nữa"
+    },
+    {
+      "simplified": "发",
+      "pinyin": "fā",
+      "vi": "phát, gửi",
+      "english": "phát, gửi"
+    },
+    {
+      "simplified": "饭馆",
+      "pinyin": "fànguǎn",
+      "vi": "cửa hàng ăn, tiệm cơm",
+      "english": "cửa hàng ăn, tiệm cơm"
+    },
+    {
+      "simplified": "方便",
+      "pinyin": "fāngbiàn",
+      "vi": "thuận tiện",
+      "english": "thuận tiện"
+    },
+    {
+      "simplified": "方便面",
+      "pinyin": "fāngbiànmiàn",
+      "vi": "mì ăn liền, mì tôm",
+      "english": "mì ăn liền, mì tôm"
+    },
+    {
+      "simplified": "方法",
+      "pinyin": "fāngfǎ",
+      "vi": "phương pháp, cách",
+      "english": "phương pháp, cách"
+    },
+    {
+      "simplified": "方面",
+      "pinyin": "fāngmiàn",
+      "vi": "phương diện, khía cạnh",
+      "english": "phương diện, khía cạnh"
+    },
+    {
+      "simplified": "方向",
+      "pinyin": "fāngxiàng",
+      "vi": "phương hướng",
+      "english": "phương hướng"
+    },
+    {
+      "simplified": "放下",
+      "pinyin": "fàngxià",
+      "vi": "đặt xuống, thả xuống",
+      "english": "đặt xuống, thả xuống"
+    },
+    {
+      "simplified": "放心",
+      "pinyin": "fàng//xīn",
+      "vi": "yên tâm",
+      "english": "yên tâm"
+    },
+    {
+      "simplified": "分",
+      "pinyin": "fēn",
+      "vi": "phân, chia",
+      "english": "phân, chia"
+    },
+    {
+      "simplified": "分开",
+      "pinyin": "fēn//kāi",
+      "vi": "xa cách, tách biệt",
+      "english": "xa cách, tách biệt"
+    },
+    {
+      "simplified": "分数",
+      "pinyin": "fēnshù",
+      "vi": "điểm số",
+      "english": "điểm số"
+    },
+    {
+      "simplified": "份",
+      "pinyin": "fèn",
+      "vi": "phần",
+      "english": "phần"
+    },
+    {
+      "simplified": "封",
+      "pinyin": "fēng",
+      "vi": "phong, bìa, lá, bức",
+      "english": "phong, bìa, lá, bức"
+    },
+    {
+      "simplified": "服务",
+      "pinyin": "fúwù",
+      "vi": "phục vụ",
+      "english": "phục vụ"
+    },
+    {
+      "simplified": "复习",
+      "pinyin": "fùxí",
+      "vi": "ôn tập",
+      "english": "ôn tập"
+    },
+    {
+      "simplified": "该",
+      "pinyin": "gāi",
+      "vi": "nên",
+      "english": "nên"
+    },
+    {
+      "simplified": "改",
+      "pinyin": "gǎi",
+      "vi": "đổi, thay đổi, sửa",
+      "english": "đổi, thay đổi, sửa"
+    },
+    {
+      "simplified": "改变",
+      "pinyin": "gǎibiàn",
+      "vi": "biến đổi, thay đổi",
+      "english": "biến đổi, thay đổi"
+    },
+    {
+      "simplified": "干杯",
+      "pinyin": "gān//bēi",
+      "vi": "cạn ly, cạn chén",
+      "english": "cạn ly, cạn chén"
+    },
+    {
+      "simplified": "感到",
+      "pinyin": "gǎndào",
+      "vi": "cảm thấy, thấy",
+      "english": "cảm thấy, thấy"
+    },
+    {
+      "simplified": "感动",
+      "pinyin": "gǎndòng",
+      "vi": "cảm động",
+      "english": "cảm động"
+    },
+    {
+      "simplified": "感觉",
+      "pinyin": "gǎnjué",
+      "vi": "cảm thấy; cảm nhận",
+      "english": "cảm thấy; cảm nhận"
+    },
+    {
+      "simplified": "感谢",
+      "pinyin": "gǎnxiè",
+      "vi": "cảm ơn; lời cảm ơn",
+      "english": "cảm ơn; lời cảm ơn"
+    },
+    {
+      "simplified": "干活儿",
+      "pinyin": "gàn//huór",
+      "vi": "làm việc nặng, lao động",
+      "english": "làm việc nặng, lao động"
+    },
+    {
+      "simplified": "刚才",
+      "pinyin": "gāngcái",
+      "vi": "vừa nãy, hồi nãy",
+      "english": "vừa nãy, hồi nãy"
+    },
+    {
+      "simplified": "刚刚",
+      "pinyin": "gānggāng",
+      "vi": "vừa, vừa hay, vừa vặn",
+      "english": "vừa, vừa hay, vừa vặn"
+    },
+    {
+      "simplified": "高级",
+      "pinyin": "gāojí",
+      "vi": "cao cấp",
+      "english": "cao cấp"
+    },
+    {
+      "simplified": "高中",
+      "pinyin": "gāozhōng",
+      "vi": "cấp III",
+      "english": "cấp III"
+    },
+    {
+      "simplified": "个子",
+      "pinyin": "gèzi",
+      "vi": "vóc dáng, vóc người",
+      "english": "vóc dáng, vóc người"
+    },
+    {
+      "simplified": "更",
+      "pinyin": "gèng",
+      "vi": "càng, thêm, hơn nữa",
+      "english": "càng, thêm, hơn nữa"
+    },
+    {
+      "simplified": "公共汽车",
+      "pinyin": "gōnggòng qìchē",
+      "vi": "xe buýt công cộng",
+      "english": "xe buýt công cộng"
+    },
+    {
+      "simplified": "公交车",
+      "pinyin": "gōngjiāochē",
+      "vi": "xe buýt công cộng",
+      "english": "xe buýt công cộng"
+    },
+    {
+      "simplified": "公斤",
+      "pinyin": "gōngjīn",
+      "vi": "ki-lô-gram",
+      "english": "ki-lô-gram"
+    },
+    {
+      "simplified": "公里",
+      "pinyin": "gōnglǐ",
+      "vi": "ki-lô-mét",
+      "english": "ki-lô-mét"
+    },
+    {
+      "simplified": "公路",
+      "pinyin": "gōnglù",
+      "vi": "đường cái, quốc lộ",
+      "english": "đường cái, quốc lộ"
+    },
+    {
+      "simplified": "公平",
+      "pinyin": "gōngpíng",
+      "vi": "công bằng",
+      "english": "công bằng"
+    },
+    {
+      "simplified": "公司",
+      "pinyin": "gōngsī",
+      "vi": "công ty",
+      "english": "công ty"
+    },
+    {
+      "simplified": "狗",
+      "pinyin": "gǒu",
+      "vi": "chó, con chó",
+      "english": "chó, con chó"
+    },
+    {
+      "simplified": "够",
+      "pinyin": "gòu",
+      "vi": "đủ, đạt",
+      "english": "đủ, đạt"
+    },
+    {
+      "simplified": "故事",
+      "pinyin": "gùshì",
+      "vi": "truyện, câu chuyện",
+      "english": "truyện, câu chuyện"
+    },
+    {
+      "simplified": "故意",
+      "pinyin": "gùyì",
+      "vi": "cố ý, cố tình",
+      "english": "cố ý, cố tình"
+    },
+    {
+      "simplified": "顾客",
+      "pinyin": "gùkè",
+      "vi": "khách hàng",
+      "english": "khách hàng"
+    },
+    {
+      "simplified": "关机",
+      "pinyin": "guānjī",
+      "vi": "tắt máy điện thoại",
+      "english": "tắt máy điện thoại"
+    },
+    {
+      "simplified": "关心",
+      "pinyin": "guānxīn",
+      "vi": "quan tâm",
+      "english": "quan tâm"
+    },
+    {
+      "simplified": "观点",
+      "pinyin": "guāndiǎn",
+      "vi": "quan điểm",
+      "english": "quan điểm"
+    },
+    {
+      "simplified": "广场",
+      "pinyin": "guǎngchǎng",
+      "vi": "quảng trường",
+      "english": "quảng trường"
+    },
+    {
+      "simplified": "广告",
+      "pinyin": "guǎnggào",
+      "vi": "quảng cáo",
+      "english": "quảng cáo"
+    },
+    {
+      "simplified": "国际",
+      "pinyin": "guójì",
+      "vi": "quốc tế",
+      "english": "quốc tế"
+    },
+    {
+      "simplified": "过来",
+      "pinyin": "guò·lái",
+      "vi": "đến, qua đây",
+      "english": "đến, qua đây"
+    },
+    {
+      "simplified": "过年",
+      "pinyin": "guònián",
+      "vi": "ăn Tết, đón Tết",
+      "english": "ăn Tết, đón Tết"
+    },
+    {
+      "simplified": "过",
+      "pinyin": "guò",
+      "vi": "đã, từng",
+      "english": "đã, từng"
+    },
+    {
+      "simplified": "海",
+      "pinyin": "hǎi",
+      "vi": "biển",
+      "english": "biển"
+    },
+    {
+      "simplified": "海边",
+      "pinyin": "hǎi biān",
+      "vi": "bờ biển",
+      "english": "bờ biển"
+    },
+    {
+      "simplified": "喊",
+      "pinyin": "hǎn",
+      "vi": "kêu, gọi",
+      "english": "kêu, gọi"
+    },
+    {
+      "simplified": "好",
+      "pinyin": "hǎo",
+      "vi": "rất,quá, …",
+      "english": "rất,quá, …"
+    },
+    {
+      "simplified": "好处",
+      "pinyin": "hǎochù",
+      "vi": "điểm tốt, có ích",
+      "english": "điểm tốt, có ích"
+    },
+    {
+      "simplified": "好多",
+      "pinyin": "hǎoduō",
+      "vi": "rất nhiều",
+      "english": "rất nhiều"
+    },
+    {
+      "simplified": "好久",
+      "pinyin": "hǎojiǔ",
+      "vi": "rất lâu",
+      "english": "rất lâu"
+    },
+    {
+      "simplified": "好人",
+      "pinyin": "hǎorén",
+      "vi": "người tốt",
+      "english": "người tốt"
+    },
+    {
+      "simplified": "好事",
+      "pinyin": "hǎoshì",
+      "vi": "chuyện tốt",
+      "english": "chuyện tốt"
+    },
+    {
+      "simplified": "好像",
+      "pinyin": "hǎoxiàng",
+      "vi": "hình như",
+      "english": "hình như"
+    },
+    {
+      "simplified": "合适",
+      "pinyin": "héshì",
+      "vi": "hợp, phù hợp",
+      "english": "hợp, phù hợp"
+    },
+    {
+      "simplified": "河",
+      "pinyin": "hé",
+      "vi": "sông",
+      "english": "sông"
+    },
+    {
+      "simplified": "黑板",
+      "pinyin": "hēibǎn",
+      "vi": "bảng",
+      "english": "bảng"
+    },
+    {
+      "simplified": "黑色",
+      "pinyin": "hēisè",
+      "vi": "màu đen",
+      "english": "màu đen"
+    },
+    {
+      "simplified": "红",
+      "pinyin": "hóng",
+      "vi": "đỏ",
+      "english": "đỏ"
+    },
+    {
+      "simplified": "红色",
+      "pinyin": "hóngsè",
+      "vi": "màu đỏ",
+      "english": "màu đỏ"
+    },
+    {
+      "simplified": "后来",
+      "pinyin": "hòulái",
+      "vi": "sau này",
+      "english": "sau này"
+    },
+    {
+      "simplified": "忽然",
+      "pinyin": "hūrán",
+      "vi": "đột nhiên",
+      "english": "đột nhiên"
+    },
+    {
+      "simplified": "湖",
+      "pinyin": "hú",
+      "vi": "hồ",
+      "english": "hồ"
+    },
+    {
+      "simplified": "护照",
+      "pinyin": "hùzhào",
+      "vi": "hộ chiếu",
+      "english": "hộ chiếu"
+    },
+    {
+      "simplified": "花",
+      "pinyin": "huā",
+      "vi": "tiêu, dùng (tiền, thời gian)",
+      "english": "tiêu, dùng (tiền, thời gian)"
+    },
+    {
+      "simplified": "花园",
+      "pinyin": "huāyuán",
+      "vi": "vườn hoa",
+      "english": "vườn hoa"
+    },
+    {
+      "simplified": "画",
+      "pinyin": "huà",
+      "vi": "vẽ",
+      "english": "vẽ"
+    },
+    {
+      "simplified": "画家",
+      "pinyin": "huàjiā",
+      "vi": "họa sĩ",
+      "english": "họa sĩ"
+    },
+    {
+      "simplified": "画儿",
+      "pinyin": "huàr",
+      "vi": "bức tranh",
+      "english": "bức tranh"
+    },
+    {
+      "simplified": "坏人",
+      "pinyin": "huàirén",
+      "vi": "người xấu",
+      "english": "người xấu"
+    },
+    {
+      "simplified": "欢迎",
+      "pinyin": "huānyíng",
+      "vi": "hoan nghênh",
+      "english": "hoan nghênh"
+    },
+    {
+      "simplified": "换",
+      "pinyin": "huàn",
+      "vi": "đổi",
+      "english": "đổi"
+    },
+    {
+      "simplified": "黄",
+      "pinyin": "huáng",
+      "vi": "vàng",
+      "english": "vàng"
+    },
+    {
+      "simplified": "黄色",
+      "pinyin": "huángsè",
+      "vi": "màu vàng",
+      "english": "màu vàng"
+    },
+    {
+      "simplified": "回",
+      "pinyin": "huí",
+      "vi": "lần, hồi",
+      "english": "lần, hồi"
+    },
+    {
+      "simplified": "回国",
+      "pinyin": "huí guó",
+      "vi": "về nước",
+      "english": "về nước"
+    },
+    {
+      "simplified": "会",
+      "pinyin": "huì",
+      "vi": "hội",
+      "english": "hội"
+    },
+    {
+      "simplified": "活动",
+      "pinyin": "huódòng",
+      "vi": "hoạt động",
+      "english": "hoạt động"
+    },
+    {
+      "simplified": "或",
+      "pinyin": "huò",
+      "vi": "hoặc, hay là",
+      "english": "hoặc, hay là"
+    },
+    {
+      "simplified": "或者",
+      "pinyin": "huòzhě",
+      "vi": "hoặc là",
+      "english": "hoặc là"
+    },
+    {
+      "simplified": "机会",
+      "pinyin": "jī·huì",
+      "vi": "cơ hội",
+      "english": "cơ hội"
+    },
+    {
+      "simplified": "鸡",
+      "pinyin": "jī",
+      "vi": "gà",
+      "english": "gà"
+    },
+    {
+      "simplified": "急",
+      "pinyin": "jí",
+      "vi": "vội",
+      "english": "vội"
+    },
+    {
+      "simplified": "计划",
+      "pinyin": "jìhuà",
+      "vi": "dự định, kế hoạch",
+      "english": "dự định, kế hoạch"
+    },
+    {
+      "simplified": "计算机",
+      "pinyin": "jìsuànjī",
+      "vi": "máy tính",
+      "english": "máy tính"
+    },
+    {
+      "simplified": "加",
+      "pinyin": "jiā",
+      "vi": "thêm",
+      "english": "thêm"
+    },
+    {
+      "simplified": "加油",
+      "pinyin": "jiāyóu",
+      "vi": "cố lên",
+      "english": "cố lên"
+    },
+    {
+      "simplified": "家(科学家)",
+      "pinyin": "jiā (kēxuéjiā)",
+      "vi": "nhà khoa học",
+      "english": "nhà khoa học"
+    },
+    {
+      "simplified": "家庭",
+      "pinyin": "jiātíng",
+      "vi": "gia đình",
+      "english": "gia đình"
+    },
+    {
+      "simplified": "家长",
+      "pinyin": "jiāzhǎng",
+      "vi": "phụ huynh, người giám hộ",
+      "english": "phụ huynh, người giám hộ"
+    },
+    {
+      "simplified": "假",
+      "pinyin": "jiǎ",
+      "vi": "giả",
+      "english": "giả"
+    },
+    {
+      "simplified": "假期",
+      "pinyin": "jiàqī",
+      "vi": "kì nghỉ, thời gian nghỉ",
+      "english": "kì nghỉ, thời gian nghỉ"
+    },
+    {
+      "simplified": "检查",
+      "pinyin": "jiǎnchá",
+      "vi": "kiểm tra",
+      "english": "kiểm tra"
+    },
+    {
+      "simplified": "见到",
+      "pinyin": "jiàndào",
+      "vi": "nhìn thấy, trông thấy",
+      "english": "nhìn thấy, trông thấy"
+    },
+    {
+      "simplified": "见过",
+      "pinyin": "jiànguò",
+      "vi": "từng gặp, từng thấy",
+      "english": "từng gặp, từng thấy"
+    },
+    {
+      "simplified": "健康",
+      "pinyin": "jiànkāng",
+      "vi": "mạnh khỏe",
+      "english": "mạnh khỏe"
+    },
+    {
+      "simplified": "讲",
+      "pinyin": "jiǎng",
+      "vi": "giảng, kể, nói",
+      "english": "giảng, kể, nói"
+    },
+    {
+      "simplified": "讲话",
+      "pinyin": "jiǎng//huà",
+      "vi": "nói chuyện, kể chuyện",
+      "english": "nói chuyện, kể chuyện"
+    },
+    {
+      "simplified": "交",
+      "pinyin": "jiāo",
+      "vi": "giao, nộp",
+      "english": "giao, nộp"
+    },
+    {
+      "simplified": "交给",
+      "pinyin": "jiāo gěi",
+      "vi": "giao cho…",
+      "english": "giao cho…"
+    },
+    {
+      "simplified": "交朋友",
+      "pinyin": "jiāo péngyǒu",
+      "vi": "kết bạn",
+      "english": "kết bạn"
+    },
+    {
+      "simplified": "交通",
+      "pinyin": "jiāotōng",
+      "vi": "giao thông",
+      "english": "giao thông"
+    },
+    {
+      "simplified": "角",
+      "pinyin": "jiǎo",
+      "vi": "góc, cạnh",
+      "english": "góc, cạnh"
+    },
+    {
+      "simplified": "角度",
+      "pinyin": "jiǎodù",
+      "vi": "phía, góc độ, quan điểm",
+      "english": "phía, góc độ, quan điểm"
+    },
+    {
+      "simplified": "饺子",
+      "pinyin": "jiǎozi",
+      "vi": "bánh chẻo, sủi cảo",
+      "english": "bánh chẻo, sủi cảo"
+    },
+    {
+      "simplified": "脚",
+      "pinyin": "jiǎo",
+      "vi": "chân",
+      "english": "chân"
+    },
+    {
+      "simplified": "叫作",
+      "pinyin": "jiàozuò",
+      "vi": "(được) gọi là…",
+      "english": "(được) gọi là…"
+    },
+    {
+      "simplified": "教师",
+      "pinyin": "jiàoshī",
+      "vi": "giáo sư, giáo viên",
+      "english": "giáo sư, giáo viên"
+    },
+    {
+      "simplified": "教学",
+      "pinyin": "jiàoxué",
+      "vi": "dạy học",
+      "english": "dạy học"
+    },
+    {
+      "simplified": "教育",
+      "pinyin": "jiàoyù",
+      "vi": "giáo dục",
+      "english": "giáo dục"
+    },
+    {
+      "simplified": "接",
+      "pinyin": "jiē",
+      "vi": "đón, đỡ, lấy, nhận",
+      "english": "đón, đỡ, lấy, nhận"
+    },
+    {
+      "simplified": "接到",
+      "pinyin": "jiēdào",
+      "vi": "nhận được",
+      "english": "nhận được"
+    },
+    {
+      "simplified": "接受",
+      "pinyin": "jiēshòu",
+      "vi": "chấp nhận",
+      "english": "chấp nhận"
+    },
+    {
+      "simplified": "接下来",
+      "pinyin": "jiē·xià·lái",
+      "vi": "tiếp theo",
+      "english": "tiếp theo"
+    },
+    {
+      "simplified": "接着",
+      "pinyin": "jiēzhe",
+      "vi": "tiếp, tiếp theo, tiếp tục",
+      "english": "tiếp, tiếp theo, tiếp tục"
+    },
+    {
+      "simplified": "街",
+      "pinyin": "jiē",
+      "vi": "đường phố",
+      "english": "đường phố"
+    },
+    {
+      "simplified": "节",
+      "pinyin": "jié",
+      "vi": "ngày (lễ, tết)",
+      "english": "ngày (lễ, tết)"
+    },
+    {
+      "simplified": "节目",
+      "pinyin": "jiémù",
+      "vi": "tiết mục",
+      "english": "tiết mục"
+    },
+    {
+      "simplified": "节日",
+      "pinyin": "jiérì",
+      "vi": "ngày lễ",
+      "english": "ngày lễ"
+    },
+    {
+      "simplified": "结果",
+      "pinyin": "jiéguǒ",
+      "vi": "kết quả",
+      "english": "kết quả"
+    },
+    {
+      "simplified": "借",
+      "pinyin": "jiè",
+      "vi": "mượn",
+      "english": "mượn"
+    },
+    {
+      "simplified": "今后",
+      "pinyin": "jīnhòu",
+      "vi": "sau này, từ này về sau",
+      "english": "sau này, từ này về sau"
+    },
+    {
+      "simplified": "进入",
+      "pinyin": "jìnrù",
+      "vi": "nhập, sát nhập, vào,…",
+      "english": "nhập, sát nhập, vào,…"
+    },
+    {
+      "simplified": "进行",
+      "pinyin": "jìnxíng",
+      "vi": "tiến hành, làm",
+      "english": "tiến hành, làm"
+    },
+    {
+      "simplified": "近",
+      "pinyin": "jìn",
+      "vi": "gần",
+      "english": "gần"
+    },
+    {
+      "simplified": "经常",
+      "pinyin": "jīngcháng",
+      "vi": "thường xuyên",
+      "english": "thường xuyên"
+    },
+    {
+      "simplified": "经过",
+      "pinyin": "jīngguò",
+      "vi": "từng trải, trải qua",
+      "english": "từng trải, trải qua"
+    },
+    {
+      "simplified": "经理",
+      "pinyin": "jīnglǐ",
+      "vi": "giám đốc",
+      "english": "giám đốc"
+    },
+    {
+      "simplified": "酒",
+      "pinyin": "jiǔ",
+      "vi": "rượu",
+      "english": "rượu"
+    },
+    {
+      "simplified": "酒店",
+      "pinyin": "jiǔdiàn",
+      "vi": "nhà nghỉ",
+      "english": "nhà nghỉ"
+    },
+    {
+      "simplified": "就要",
+      "pinyin": "jiùyào",
+      "vi": "sẽ, sẽ đến, sắp",
+      "english": "sẽ, sẽ đến, sắp"
+    },
+    {
+      "simplified": "举",
+      "pinyin": "jǔ",
+      "vi": "giơ, giương cao",
+      "english": "giơ, giương cao"
+    },
+    {
+      "simplified": "举手",
+      "pinyin": "jǔshǒu",
+      "vi": "giơ tay",
+      "english": "giơ tay"
+    },
+    {
+      "simplified": "举行",
+      "pinyin": "jǔxíng",
+      "vi": "tổ chức, tiến hành",
+      "english": "tổ chức, tiến hành"
+    },
+    {
+      "simplified": "句子",
+      "pinyin": "jùzi",
+      "vi": "câu",
+      "english": "câu"
+    },
+    {
+      "simplified": "卡",
+      "pinyin": "kǎ",
+      "vi": "thẻ, vé",
+      "english": "thẻ, vé"
+    },
+    {
+      "simplified": "开机",
+      "pinyin": "kāijī",
+      "vi": "mở máy",
+      "english": "mở máy"
+    },
+    {
+      "simplified": "开心",
+      "pinyin": "kāixīn",
+      "vi": "vui vẻ",
+      "english": "vui vẻ"
+    },
+    {
+      "simplified": "开学",
+      "pinyin": "kāixué",
+      "vi": "khai giảng, nhập học",
+      "english": "khai giảng, nhập học"
+    },
+    {
+      "simplified": "看法",
+      "pinyin": "kàn·fǎ",
+      "vi": "cách nhìn",
+      "english": "cách nhìn"
+    },
+    {
+      "simplified": "考生",
+      "pinyin": "kǎoshēng",
+      "vi": "thí sinh",
+      "english": "thí sinh"
+    },
+    {
+      "simplified": "靠",
+      "pinyin": "kào",
+      "vi": "dựa, dựa vào",
+      "english": "dựa, dựa vào"
+    },
+    {
+      "simplified": "科",
+      "pinyin": "kē",
+      "vi": "môn học, môn, khoa",
+      "english": "môn học, môn, khoa"
+    },
+    {
+      "simplified": "科学",
+      "pinyin": "kēxué",
+      "vi": "khoa học, có tính khoa học",
+      "english": "khoa học, có tính khoa học"
+    },
+    {
+      "simplified": "可爱",
+      "pinyin": "kěài",
+      "vi": "đáng yêu, dễ thương",
+      "english": "đáng yêu, dễ thương"
+    },
+    {
+      "simplified": "可能",
+      "pinyin": "kěnéng",
+      "vi": "khả năng",
+      "english": "khả năng"
+    },
+    {
+      "simplified": "可怕",
+      "pinyin": "kěpà",
+      "vi": "đáng sợ",
+      "english": "đáng sợ"
+    },
+    {
+      "simplified": "可以",
+      "pinyin": "kěyǐ",
+      "vi": "có thể",
+      "english": "có thể"
+    },
+    {
+      "simplified": "克",
+      "pinyin": "kè",
+      "vi": "gam (đơn vị đo lường)",
+      "english": "gam (đơn vị đo lường)"
+    },
+    {
+      "simplified": "刻",
+      "pinyin": "kè",
+      "vi": "15 phút",
+      "english": "15 phút"
+    },
+    {
+      "simplified": "客人",
+      "pinyin": "kè·rén",
+      "vi": "khách",
+      "english": "khách"
+    },
+    {
+      "simplified": "课堂",
+      "pinyin": "kètáng",
+      "vi": "tại lớp, trong lớp",
+      "english": "tại lớp, trong lớp"
+    },
+    {
+      "simplified": "空气",
+      "pinyin": "kōngqì",
+      "vi": "không khí",
+      "english": "không khí"
+    },
+    {
+      "simplified": "哭",
+      "pinyin": "kū",
+      "vi": "khóc",
+      "english": "khóc"
+    },
+    {
+      "simplified": "快餐",
+      "pinyin": "kuàicān",
+      "vi": "bữa ăn nhanh",
+      "english": "bữa ăn nhanh"
+    },
+    {
+      "simplified": "快点儿",
+      "pinyin": "kuài diǎnr",
+      "vi": "nhanh lên",
+      "english": "nhanh lên"
+    },
+    {
+      "simplified": "快乐",
+      "pinyin": "kuàilè",
+      "vi": "vui vẻ",
+      "english": "vui vẻ"
+    },
+    {
+      "simplified": "快要",
+      "pinyin": "kuàiyào",
+      "vi": "sắp phải",
+      "english": "sắp phải"
+    },
+    {
+      "simplified": "筷子",
+      "pinyin": "kuài zi",
+      "vi": "đũa",
+      "english": "đũa"
+    },
+    {
+      "simplified": "拉",
+      "pinyin": "lā",
+      "vi": "kéo, lôi",
+      "english": "kéo, lôi"
+    },
+    {
+      "simplified": "蓝",
+      "pinyin": "lán",
+      "vi": "xanh lam, xanh da trời",
+      "english": "xanh lam, xanh da trời"
+    },
+    {
+      "simplified": "蓝色",
+      "pinyin": "lánsè",
+      "vi": "màu xanh lam",
+      "english": "màu xanh lam"
+    },
+    {
+      "simplified": "篮球",
+      "pinyin": "lánqiú",
+      "vi": "bóng rổ",
+      "english": "bóng rổ"
+    },
+    {
+      "simplified": "老",
+      "pinyin": "lǎo",
+      "vi": "hay, thường",
+      "english": "hay, thường"
+    },
+    {
+      "simplified": "老",
+      "pinyin": "lǎo",
+      "vi": "xưng hô thân mật với người kém tuổi (dùng cho nam)",
+      "english": "xưng hô thân mật với người kém tuổi (dùng cho nam)"
+    },
+    {
+      "simplified": "老年",
+      "pinyin": "lǎonián",
+      "vi": "tuổi già",
+      "english": "tuổi già"
+    },
+    {
+      "simplified": "老朋友",
+      "pinyin": "lǎo péngyǒu",
+      "vi": "bạn cũ",
+      "english": "bạn cũ"
+    },
+    {
+      "simplified": "老是",
+      "pinyin": "lǎo·shì",
+      "vi": "hay, thường (tiêu cực)",
+      "english": "hay, thường (tiêu cực)"
+    },
+    {
+      "simplified": "离",
+      "pinyin": "lí",
+      "vi": "cách",
+      "english": "cách"
+    },
+    {
+      "simplified": "离开",
+      "pinyin": "líkāi",
+      "vi": "rời khỏi",
+      "english": "rời khỏi"
+    },
+    {
+      "simplified": "礼物",
+      "pinyin": "lǐwù",
+      "vi": "lễ vật, quà",
+      "english": "lễ vật, quà"
+    },
+    {
+      "simplified": "里头",
+      "pinyin": "lǐtou",
+      "vi": "bên trong",
+      "english": "bên trong"
+    },
+    {
+      "simplified": "例如",
+      "pinyin": "lìrú",
+      "vi": "ví dụ",
+      "english": "ví dụ"
+    },
+    {
+      "simplified": "例子",
+      "pinyin": "lìzi",
+      "vi": "ví dụ",
+      "english": "ví dụ"
+    },
+    {
+      "simplified": "脸",
+      "pinyin": "liǎn",
+      "vi": "mặt",
+      "english": "mặt"
+    },
+    {
+      "simplified": "练",
+      "pinyin": "liàn",
+      "vi": "luyện",
+      "english": "luyện"
+    },
+    {
+      "simplified": "练习",
+      "pinyin": "liànxí",
+      "vi": "luyện tập",
+      "english": "luyện tập"
+    },
+    {
+      "simplified": "凉",
+      "pinyin": "liáng",
+      "vi": "mát",
+      "english": "mát"
+    },
+    {
+      "simplified": "凉快",
+      "pinyin": "liángkuài",
+      "vi": "mát mẻ, dễ chịu",
+      "english": "mát mẻ, dễ chịu"
+    },
+    {
+      "simplified": "两",
+      "pinyin": "liǎng",
+      "vi": "hai",
+      "english": "hai"
+    },
+    {
+      "simplified": "亮",
+      "pinyin": "liàng",
+      "vi": "sáng",
+      "english": "sáng"
+    },
+    {
+      "simplified": "辆",
+      "pinyin": "liàng",
+      "vi": "chiếc, cái (xe)",
+      "english": "chiếc, cái (xe)"
+    },
+    {
+      "simplified": "零下",
+      "pinyin": "líng xià",
+      "vi": "âm độ, dưới 0 độ",
+      "english": "âm độ, dưới 0 độ"
+    },
+    {
+      "simplified": "留",
+      "pinyin": "liú",
+      "vi": "giữ lại, lưu lại, để lại",
+      "english": "giữ lại, lưu lại, để lại"
+    },
+    {
+      "simplified": "留下",
+      "pinyin": "liúxià",
+      "vi": "ở lại, để lại",
+      "english": "ở lại, để lại"
+    },
+    {
+      "simplified": "流",
+      "pinyin": "liú",
+      "vi": "chảy, trôi",
+      "english": "chảy, trôi"
+    },
+    {
+      "simplified": "流利",
+      "pinyin": "liúlì",
+      "vi": "trôi chảy, thuần thục",
+      "english": "trôi chảy, thuần thục"
+    },
+    {
+      "simplified": "流行",
+      "pinyin": "liúxíng",
+      "vi": "phổ biến",
+      "english": "phổ biến"
+    },
+    {
+      "simplified": "路边",
+      "pinyin": "lù biān",
+      "vi": "vệ đường, lề đường",
+      "english": "vệ đường, lề đường"
+    },
+    {
+      "simplified": "旅客",
+      "pinyin": "lǚkè",
+      "vi": "khách du lịch",
+      "english": "khách du lịch"
+    },
+    {
+      "simplified": "旅行",
+      "pinyin": "lǚxíng",
+      "vi": "du lịch",
+      "english": "du lịch"
+    },
+    {
+      "simplified": "旅游",
+      "pinyin": "lǚyóu",
+      "vi": "du lịch",
+      "english": "du lịch"
+    },
+    {
+      "simplified": "绿",
+      "pinyin": "lǜ",
+      "vi": "xanh lá",
+      "english": "xanh lá"
+    },
+    {
+      "simplified": "绿色",
+      "pinyin": "lǜsè",
+      "vi": "màu xanh lá cây",
+      "english": "màu xanh lá cây"
+    },
+    {
+      "simplified": "卖",
+      "pinyin": "mài",
+      "vi": "bán",
+      "english": "bán"
+    },
+    {
+      "simplified": "满",
+      "pinyin": "mǎn",
+      "vi": "đầy, tràn",
+      "english": "đầy, tràn"
+    },
+    {
+      "simplified": "满意",
+      "pinyin": "mǎnyì",
+      "vi": "vừa ý, mãn nguyện",
+      "english": "vừa ý, mãn nguyện"
+    },
+    {
+      "simplified": "猫",
+      "pinyin": "māo",
+      "vi": "mèo",
+      "english": "mèo"
+    },
+    {
+      "simplified": "面’",
+      "pinyin": "miàn",
+      "vi": "mặt (người, đồ vật), nét mặt",
+      "english": "mặt (người, đồ vật), nét mặt"
+    },
+    {
+      "simplified": "面²",
+      "pinyin": "miàn",
+      "vi": "mặt, nét mặt, phương hướng",
+      "english": "mặt, nét mặt, phương hướng"
+    },
+    {
+      "simplified": "面前",
+      "pinyin": "miànqián",
+      "vi": "trước mặt",
+      "english": "trước mặt"
+    },
+    {
+      "simplified": "名",
+      "pinyin": "míng",
+      "vi": "vị",
+      "english": "vị"
+    },
+    {
+      "simplified": "名称",
+      "pinyin": "míngchēng",
+      "vi": "tên gọi, tên",
+      "english": "tên gọi, tên"
+    },
+    {
+      "simplified": "名单",
+      "pinyin": "míngdān",
+      "vi": "danh sách",
+      "english": "danh sách"
+    },
+    {
+      "simplified": "明星",
+      "pinyin": "míngxīng",
+      "vi": "người nổi tiếng (ca sĩ, nghệ sĩ)",
+      "english": "người nổi tiếng (ca sĩ, nghệ sĩ)"
+    },
+    {
+      "simplified": "目的",
+      "pinyin": "mùdì",
+      "vi": "mục đích",
+      "english": "mục đích"
+    },
+    {
+      "simplified": "拿出",
+      "pinyin": "náchū",
+      "vi": "mang ra, lấy ra",
+      "english": "mang ra, lấy ra"
+    },
+    {
+      "simplified": "拿到",
+      "pinyin": "nádào",
+      "vi": "lấy được",
+      "english": "lấy được"
+    },
+    {
+      "simplified": "那",
+      "pinyin": "nà",
+      "vi": "vậy, còn",
+      "english": "vậy, còn"
+    },
+    {
+      "simplified": "那会儿",
+      "pinyin": "nàhuìr",
+      "vi": "lúc ấy, khi đó",
+      "english": "lúc ấy, khi đó"
+    },
+    {
+      "simplified": "那时候那时",
+      "pinyin": "nà shíhòu nà shí",
+      "vi": "lúc đó, khi đó",
+      "english": "lúc đó, khi đó"
+    },
+    {
+      "simplified": "那样",
+      "pinyin": "nàyàng",
+      "vi": "như vậy",
+      "english": "như vậy"
+    },
+    {
+      "simplified": "南方",
+      "pinyin": "nánfāng",
+      "vi": "miền Nam, phương Nam",
+      "english": "miền Nam, phương Nam"
+    },
+    {
+      "simplified": "难过",
+      "pinyin": "nánguò",
+      "vi": "buồn bã",
+      "english": "buồn bã"
+    },
+    {
+      "simplified": "难看",
+      "pinyin": "nánkàn",
+      "vi": "xấu xí, không hay",
+      "english": "xấu xí, không hay"
+    },
+    {
+      "simplified": "难受",
+      "pinyin": "nánshòu",
+      "vi": "khó chịu",
+      "english": "khó chịu"
+    },
+    {
+      "simplified": "难题",
+      "pinyin": "nántí",
+      "vi": "vấn đề khó, nan giải",
+      "english": "vấn đề khó, nan giải"
+    },
+    {
+      "simplified": "难听",
+      "pinyin": "nántīng",
+      "vi": "khó nghe",
+      "english": "khó nghe"
+    },
+    {
+      "simplified": "能够",
+      "pinyin": "nénggòu",
+      "vi": "có thể, có khả năng",
+      "english": "có thể, có khả năng"
+    },
+    {
+      "simplified": "年级",
+      "pinyin": "niánjí",
+      "vi": "lớp",
+      "english": "lớp"
+    },
+    {
+      "simplified": "年轻",
+      "pinyin": "niánqīng",
+      "vi": "trẻ trung, trẻ tuổi",
+      "english": "trẻ trung, trẻ tuổi"
+    },
+    {
+      "simplified": "乌",
+      "pinyin": "wū",
+      "vi": "đen, tối",
+      "english": "đen, tối"
+    },
+    {
+      "simplified": "弄",
+      "pinyin": "nòng",
+      "vi": "làm, cầm, tìm cách,…",
+      "english": "làm, cầm, tìm cách,…"
+    },
+    {
+      "simplified": "爬",
+      "pinyin": "pá",
+      "vi": "leo, trèo, bò",
+      "english": "leo, trèo, bò"
+    },
+    {
+      "simplified": "爬山",
+      "pinyin": "pá shān",
+      "vi": "leo núi",
+      "english": "leo núi"
+    },
+    {
+      "simplified": "怕",
+      "pinyin": "pà",
+      "vi": "sợ",
+      "english": "sợ"
+    },
+    {
+      "simplified": "排",
+      "pinyin": "pái",
+      "vi": "hàng",
+      "english": "hàng"
+    },
+    {
+      "simplified": "排队",
+      "pinyin": "páiduì",
+      "vi": "xếp hàng",
+      "english": "xếp hàng"
+    },
+    {
+      "simplified": "排球",
+      "pinyin": "páiqiú",
+      "vi": "bóng chuyền",
+      "english": "bóng chuyền"
+    },
+    {
+      "simplified": "碰",
+      "pinyin": "pèng",
+      "vi": "động, chạm",
+      "english": "động, chạm"
+    },
+    {
+      "simplified": "碰到",
+      "pinyin": "pèngdào",
+      "vi": "chạm phải, động đến, gặp",
+      "english": "chạm phải, động đến, gặp"
+    },
+    {
+      "simplified": "碰见",
+      "pinyin": "pèngjiàn",
+      "vi": "gặp, tình cờ gặp",
+      "english": "gặp, tình cờ gặp"
+    },
+    {
+      "simplified": "篇",
+      "pinyin": "piān",
+      "vi": "bài",
+      "english": "bài"
+    },
+    {
+      "simplified": "便宜",
+      "pinyin": "piányi",
+      "vi": "tiện lợi, rẻ; được lợi",
+      "english": "tiện lợi, rẻ; được lợi"
+    },
+    {
+      "simplified": "片",
+      "pinyin": "piàn",
+      "vi": "miếng, tấm, mảnh",
+      "english": "miếng, tấm, mảnh"
+    },
+    {
+      "simplified": "漂亮",
+      "pinyin": "piàoliàng",
+      "vi": "đẹp, xinh đẹp",
+      "english": "đẹp, xinh đẹp"
+    },
+    {
+      "simplified": "平安",
+      "pinyin": "píng’ān",
+      "vi": "bình an, yên ổn",
+      "english": "bình an, yên ổn"
+    },
+    {
+      "simplified": "平常",
+      "pinyin": "píngcháng",
+      "vi": "bình thường, giản dị",
+      "english": "bình thường, giản dị"
+    },
+    {
+      "simplified": "平等",
+      "pinyin": "píngděng",
+      "vi": "bình đẳng, công bằng",
+      "english": "bình đẳng, công bằng"
+    },
+    {
+      "simplified": "平时",
+      "pinyin": "píngshí",
+      "vi": "bình thường, lúc thường",
+      "english": "bình thường, lúc thường"
+    },
+    {
+      "simplified": "瓶",
+      "pinyin": "píng",
+      "vi": "bình, lọ, hũ",
+      "english": "bình, lọ, hũ"
+    },
+    {
+      "simplified": "瓶子",
+      "pinyin": "píngzi",
+      "vi": "cái lọ, cái bình, cái chai",
+      "english": "cái lọ, cái bình, cái chai"
+    },
+    {
+      "simplified": "普通",
+      "pinyin": "pǔtōng",
+      "vi": "phổ thông, bình thường",
+      "english": "phổ thông, bình thường"
+    },
+    {
+      "simplified": "普通话",
+      "pinyin": "pǔtōnghuà",
+      "vi": "tiếng phổ thông",
+      "english": "tiếng phổ thông"
+    },
+    {
+      "simplified": "其他",
+      "pinyin": "qítā",
+      "vi": "cái khác, người khác",
+      "english": "cái khác, người khác"
+    },
+    {
+      "simplified": "其中",
+      "pinyin": "qízhōng",
+      "vi": "trong ( 1 tập thể/cái gì…)đó",
+      "english": "trong ( 1 tập thể/cái gì…)đó"
+    },
+    {
+      "simplified": "骑",
+      "pinyin": "qí",
+      "vi": "cưỡi/ đi, đạp (xe)",
+      "english": "cưỡi/ đi, đạp (xe)"
+    },
+    {
+      "simplified": "骑车",
+      "pinyin": "qí chē",
+      "vi": "đạp xe",
+      "english": "đạp xe"
+    },
+    {
+      "simplified": "起飞",
+      "pinyin": "qǐfēi",
+      "vi": "cất cánh",
+      "english": "cất cánh"
+    },
+    {
+      "simplified": "气温",
+      "pinyin": "qìwēn",
+      "vi": "nhiệt độ",
+      "english": "nhiệt độ"
+    },
+    {
+      "simplified": "千",
+      "pinyin": "qiān",
+      "vi": "nghìn",
+      "english": "nghìn"
+    },
+    {
+      "simplified": "千克",
+      "pinyin": "qiānkè",
+      "vi": "1000 gram (1kg)",
+      "english": "1000 gram (1kg)"
+    },
+    {
+      "simplified": "前年",
+      "pinyin": "qiánnián",
+      "vi": "năm trước",
+      "english": "năm trước"
+    },
+    {
+      "simplified": "墙",
+      "pinyin": "qiáng",
+      "vi": "tường",
+      "english": "tường"
+    },
+    {
+      "simplified": "青年",
+      "pinyin": "qīngnián",
+      "vi": "thanh niên, bạn trẻ",
+      "english": "thanh niên, bạn trẻ"
+    },
+    {
+      "simplified": "青少年",
+      "pinyin": "qīng-shàonián",
+      "vi": "thanh thiếu niên",
+      "english": "thanh thiếu niên"
+    },
+    {
+      "simplified": "轻",
+      "pinyin": "qīng",
+      "vi": "nhẹ",
+      "english": "nhẹ"
+    },
+    {
+      "simplified": "清楚",
+      "pinyin": "qīngchǔ",
+      "vi": "rõ ràng, minh bạch",
+      "english": "rõ ràng, minh bạch"
+    },
+    {
+      "simplified": "晴",
+      "pinyin": "qíng",
+      "vi": "trong, quang đãng",
+      "english": "trong, quang đãng"
+    },
+    {
+      "simplified": "晴天",
+      "pinyin": "qíngtiān",
+      "vi": "trời trong, quang đãng",
+      "english": "trời trong, quang đãng"
+    },
+    {
+      "simplified": "请客",
+      "pinyin": "qǐngkè",
+      "vi": "mời khách",
+      "english": "mời khách"
+    },
+    {
+      "simplified": "请求",
+      "pinyin": "qǐngqiú",
+      "vi": "thỉnh cẩu",
+      "english": "thỉnh cẩu"
+    },
+    {
+      "simplified": "求",
+      "pinyin": "qiú",
+      "vi": "thỉnh cầu, yêu cầu, xin",
+      "english": "thỉnh cầu, yêu cầu, xin"
+    },
+    {
+      "simplified": "球场",
+      "pinyin": "qiúchǎng",
+      "vi": "sân bóng",
+      "english": "sân bóng"
+    },
+    {
+      "simplified": "球队",
+      "pinyin": "qiúduì",
+      "vi": "đội bóng",
+      "english": "đội bóng"
+    },
+    {
+      "simplified": "球鞋",
+      "pinyin": "qiúxié",
+      "vi": "giầy đá bóng, giầy thể thao",
+      "english": "giầy đá bóng, giầy thể thao"
+    },
+    {
+      "simplified": "取",
+      "pinyin": "qǔ",
+      "vi": "lấy",
+      "english": "lấy"
+    },
+    {
+      "simplified": "取得",
+      "pinyin": "qǔdé",
+      "vi": "lấy được, đạt được",
+      "english": "lấy được, đạt được"
+    },
+    {
+      "simplified": "全",
+      "pinyin": "quán",
+      "vi": "đầy đủ, tất cả",
+      "english": "đầy đủ, tất cả"
+    },
+    {
+      "simplified": "全部",
+      "pinyin": "quánbù",
+      "vi": "toàn bộ",
+      "english": "toàn bộ"
+    },
+    {
+      "simplified": "全国",
+      "pinyin": "quánguó",
+      "vi": "toàn quốc",
+      "english": "toàn quốc"
+    },
+    {
+      "simplified": "全家",
+      "pinyin": "quánjiā",
+      "vi": "cả gia đình",
+      "english": "cả gia đình"
+    },
+    {
+      "simplified": "全年",
+      "pinyin": "quánnián",
+      "vi": "cả năm",
+      "english": "cả năm"
+    },
+    {
+      "simplified": "全身",
+      "pinyin": "quánshēn",
+      "vi": "toàn thân",
+      "english": "toàn thân"
+    },
+    {
+      "simplified": "全体",
+      "pinyin": "quántǐ",
+      "vi": "toàn thể",
+      "english": "toàn thể"
+    },
+    {
+      "simplified": "让",
+      "pinyin": "ràng",
+      "vi": "để, làm cho, khiến cho",
+      "english": "để, làm cho, khiến cho"
+    },
+    {
+      "simplified": "热情",
+      "pinyin": "rèqíng",
+      "vi": "nhiệt tình",
+      "english": "nhiệt tình"
+    },
+    {
+      "simplified": "人口",
+      "pinyin": "rénkǒu",
+      "vi": "nhân khẩu, dân số",
+      "english": "nhân khẩu, dân số"
+    },
+    {
+      "simplified": "人们",
+      "pinyin": "rénmen",
+      "vi": "mọi người",
+      "english": "mọi người"
+    },
+    {
+      "simplified": "人数",
+      "pinyin": "rénshù",
+      "vi": "sĩ số, lượng người",
+      "english": "sĩ số, lượng người"
+    },
+    {
+      "simplified": "认为",
+      "pinyin": "rènwéi",
+      "vi": "cho rằng",
+      "english": "cho rằng"
+    },
+    {
+      "simplified": "日报",
+      "pinyin": "rìbào",
+      "vi": "nhật báo, báo ra hàng ngày",
+      "english": "nhật báo, báo ra hàng ngày"
+    },
+    {
+      "simplified": "日子",
+      "pinyin": "rìzi",
+      "vi": "ngày",
+      "english": "ngày"
+    },
+    {
+      "simplified": "如果",
+      "pinyin": "rúguǒ",
+      "vi": "nếu như",
+      "english": "nếu như"
+    },
+    {
+      "simplified": "入口",
+      "pinyin": "rù //kǒu",
+      "vi": "lối đi vào",
+      "english": "lối đi vào"
+    },
+    {
+      "simplified": "商量",
+      "pinyin": "shāngliáng",
+      "vi": "thương lượng, trao đổi",
+      "english": "thương lượng, trao đổi"
+    },
+    {
+      "simplified": "商人",
+      "pinyin": "shāngrén",
+      "vi": "doanh nhân",
+      "english": "doanh nhân"
+    },
+    {
+      "simplified": "上周",
+      "pinyin": "shàng zhōu",
+      "vi": "tuần trước",
+      "english": "tuần trước"
+    },
+    {
+      "simplified": "少年",
+      "pinyin": "shàonián",
+      "vi": "thiếu niên",
+      "english": "thiếu niên"
+    },
+    {
+      "simplified": "身边",
+      "pinyin": "shēnbiān",
+      "vi": "bên cạnh, ngay cạnh",
+      "english": "bên cạnh, ngay cạnh"
+    },
+    {
+      "simplified": "什么样",
+      "pinyin": "shénmeyàng",
+      "vi": "như thế nào?",
+      "english": "như thế nào?"
+    },
+    {
+      "simplified": "生",
+      "pinyin": "shēng",
+      "vi": "sinh sản, sinh tồn",
+      "english": "sinh sản, sinh tồn"
+    },
+    {
+      "simplified": "生词",
+      "pinyin": "shēngcí",
+      "vi": "từ mới",
+      "english": "từ mới"
+    },
+    {
+      "simplified": "生活",
+      "pinyin": "shēnghuó",
+      "vi": "cuộc sống; sống",
+      "english": "cuộc sống; sống"
+    },
+    {
+      "simplified": "声音",
+      "pinyin": "shēngyīn",
+      "vi": "âm thanh, giọng nói",
+      "english": "âm thanh, giọng nói"
+    },
+    {
+      "simplified": "省",
+      "pinyin": "shěng",
+      "vi": "tỉnh",
+      "english": "tỉnh"
+    },
+    {
+      "simplified": "省",
+      "pinyin": "shěng",
+      "vi": "tiết kiệm, bỏ bớt, giảm bớt",
+      "english": "tiết kiệm, bỏ bớt, giảm bớt"
+    },
+    {
+      "simplified": "十分",
+      "pinyin": "shífēn",
+      "vi": "rất, hết sức, vô cùng",
+      "english": "rất, hết sức, vô cùng"
+    },
+    {
+      "simplified": "实际",
+      "pinyin": "shíjì",
+      "vi": "thực tế, thực tại",
+      "english": "thực tế, thực tại"
+    },
+    {
+      "simplified": "实习",
+      "pinyin": "shíxí",
+      "vi": "thực tập",
+      "english": "thực tập"
+    },
+    {
+      "simplified": "实现",
+      "pinyin": "shíxiàn",
+      "vi": "thực hiện, hiên",
+      "english": "thực hiện, hiên"
+    },
+    {
+      "simplified": "食物",
+      "pinyin": "shíwù",
+      "vi": "đồ ăn",
+      "english": "đồ ăn"
+    },
+    {
+      "simplified": "使用",
+      "pinyin": "shǐyòng",
+      "vi": "sử dụng",
+      "english": "sử dụng"
+    },
+    {
+      "simplified": "市",
+      "pinyin": "shì",
+      "vi": "thành thị, thành phố, chợ",
+      "english": "thành thị, thành phố, chợ"
+    },
+    {
+      "simplified": "市长",
+      "pinyin": "shìzhǎng",
+      "vi": "thị trưởng",
+      "english": "thị trưởng"
+    },
+    {
+      "simplified": "事情",
+      "pinyin": "shì qíng",
+      "vi": "sự tình, sự việc",
+      "english": "sự tình, sự việc"
+    },
+    {
+      "simplified": "收",
+      "pinyin": "shōu",
+      "vi": "thu dọn; nhận lấy, đạt được…",
+      "english": "thu dọn; nhận lấy, đạt được…"
+    },
+    {
+      "simplified": "收到",
+      "pinyin": "shōudào",
+      "vi": "nhận được (mặt vật chất)",
+      "english": "nhận được (mặt vật chất)"
+    },
+    {
+      "simplified": "收入",
+      "pinyin": "shōurù",
+      "vi": "thu nhập",
+      "english": "thu nhập"
+    },
+    {
+      "simplified": "手表",
+      "pinyin": "shǒubiǎo",
+      "vi": "đồng hồ",
+      "english": "đồng hồ"
+    },
+    {
+      "simplified": "受到",
+      "pinyin": "shòudào",
+      "vi": "nhận lấy, nhận được",
+      "english": "nhận lấy, nhận được"
+    },
+    {
+      "simplified": "舒服",
+      "pinyin": "shūfú",
+      "vi": "dễ chịu, thoải mái",
+      "english": "dễ chịu, thoải mái"
+    },
+    {
+      "simplified": "熟",
+      "pinyin": "shú / shóu",
+      "vi": "chín; quen, thân",
+      "english": "chín; quen, thân"
+    },
+    {
+      "simplified": "数",
+      "pinyin": "shù",
+      "vi": "con số, số",
+      "english": "con số, số"
+    },
+    {
+      "simplified": "水平",
+      "pinyin": "shuǐpíng",
+      "vi": "trình độ",
+      "english": "trình độ"
+    },
+    {
+      "simplified": "顺利",
+      "pinyin": "shùnlì",
+      "vi": "thuận lợi",
+      "english": "thuận lợi"
+    },
+    {
+      "simplified": "说明",
+      "pinyin": "shuōmíng",
+      "vi": "nói rõ",
+      "english": "nói rõ"
+    },
+    {
+      "simplified": "司机",
+      "pinyin": "sījī",
+      "vi": "tài xế",
+      "english": "tài xế"
+    },
+    {
+      "simplified": "送到",
+      "pinyin": "sòngdào",
+      "vi": "gửi đi, tặng đi",
+      "english": "gửi đi, tặng đi"
+    },
+    {
+      "simplified": "送给",
+      "pinyin": "sòng gěi",
+      "vi": "gửi cho, tặng cho",
+      "english": "gửi cho, tặng cho"
+    },
+    {
+      "simplified": "算",
+      "pinyin": "suàn",
+      "vi": "tính",
+      "english": "tính"
+    },
+    {
+      "simplified": "虽然",
+      "pinyin": "suīrán",
+      "vi": "mặc dù",
+      "english": "mặc dù"
+    },
+    {
+      "simplified": "随便",
+      "pinyin": "suíbiàn",
+      "vi": "tùy tiện, tùy",
+      "english": "tùy tiện, tùy"
+    },
+    {
+      "simplified": "随时",
+      "pinyin": "suíshí",
+      "vi": "bất cứ lúc nào",
+      "english": "bất cứ lúc nào"
+    },
+    {
+      "simplified": "所以",
+      "pinyin": "suǒyǐ",
+      "vi": "vậy nên, thế nên",
+      "english": "vậy nên, thế nên"
+    },
+    {
+      "simplified": "所有",
+      "pinyin": "suǒyǒu",
+      "vi": "tất cả",
+      "english": "tất cả"
+    },
+    {
+      "simplified": "它",
+      "pinyin": "tā",
+      "vi": "nó, con",
+      "english": "nó, con"
+    },
+    {
+      "simplified": "太太",
+      "pinyin": "tàitài",
+      "vi": "quý bà, quý cô",
+      "english": "quý bà, quý cô"
+    },
+    {
+      "simplified": "太阳",
+      "pinyin": "tài·yáng",
+      "vi": "mặt trời",
+      "english": "mặt trời"
+    },
+    {
+      "simplified": "态度",
+      "pinyin": "tài·dù",
+      "vi": "thái độ",
+      "english": "thái độ"
+    },
+    {
+      "simplified": "讨论",
+      "pinyin": "tǎolùn",
+      "vi": "thảo luận",
+      "english": "thảo luận"
+    },
+    {
+      "simplified": "套",
+      "pinyin": "tào",
+      "vi": "bộ",
+      "english": "bộ"
+    },
+    {
+      "simplified": "特别",
+      "pinyin": "tèbié",
+      "vi": "đặc biệt, vô cùng",
+      "english": "đặc biệt, vô cùng"
+    },
+    {
+      "simplified": "特点",
+      "pinyin": "tèdiǎn",
+      "vi": "điểm， đặc biệt",
+      "english": "điểm， đặc biệt"
+    },
+    {
+      "simplified": "疼",
+      "pinyin": "téng",
+      "vi": "đau, nhức",
+      "english": "đau, nhức"
+    },
+    {
+      "simplified": "提",
+      "pinyin": "tí",
+      "vi": "xách, nhấc",
+      "english": "xách, nhấc"
+    },
+    {
+      "simplified": "提出",
+      "pinyin": "tíchū",
+      "vi": "đưa ra",
+      "english": "đưa ra"
+    },
+    {
+      "simplified": "提到",
+      "pinyin": "tídào",
+      "vi": "đề cập, nhắc đến",
+      "english": "đề cập, nhắc đến"
+    },
+    {
+      "simplified": "提高",
+      "pinyin": "tígāo",
+      "vi": "đề cao, nâng cao",
+      "english": "đề cao, nâng cao"
+    },
+    {
+      "simplified": "题",
+      "pinyin": "tí",
+      "vi": "đề, đề bài",
+      "english": "đề, đề bài"
+    },
+    {
+      "simplified": "体育场",
+      "pinyin": "tǐyùchǎng",
+      "vi": "sân vận động",
+      "english": "sân vận động"
+    },
+    {
+      "simplified": "体育馆",
+      "pinyin": "tǐyùguǎn",
+      "vi": "cung thể thao",
+      "english": "cung thể thao"
+    },
+    {
+      "simplified": "天上",
+      "pinyin": "tiānshàng",
+      "vi": "bầu trời, không trung",
+      "english": "bầu trời, không trung"
+    },
+    {
+      "simplified": "条",
+      "pinyin": "tiáo",
+      "vi": "cái, chiếc",
+      "english": "cái, chiếc"
+    },
+    {
+      "simplified": "条件",
+      "pinyin": "tiáojiàn",
+      "vi": "điều kiện",
+      "english": "điều kiện"
+    },
+    {
+      "simplified": "听讲",
+      "pinyin": "tīngjiǎng",
+      "vi": "nghe giảng",
+      "english": "nghe giảng"
+    },
+    {
+      "simplified": "听说",
+      "pinyin": "tīngshuō",
+      "vi": "nghe nói",
+      "english": "nghe nói"
+    },
+    {
+      "simplified": "停",
+      "pinyin": "tíng",
+      "vi": "ngừng, ngưng, mất",
+      "english": "ngừng, ngưng, mất"
+    },
+    {
+      "simplified": "停车",
+      "pinyin": "tíngchē",
+      "vi": "dừng xe, đỗ xe",
+      "english": "dừng xe, đỗ xe"
+    },
+    {
+      "simplified": "停车场",
+      "pinyin": "tíngchēchǎng",
+      "vi": "bãi đỗ xe",
+      "english": "bãi đỗ xe"
+    },
+    {
+      "simplified": "挺",
+      "pinyin": "tǐng",
+      "vi": "rất",
+      "english": "rất"
+    },
+    {
+      "simplified": "挺好",
+      "pinyin": "tǐng hǎo",
+      "vi": "rất tốt, khá tốt",
+      "english": "rất tốt, khá tốt"
+    },
+    {
+      "simplified": "通",
+      "pinyin": "tōng",
+      "vi": "thông, thông suốt",
+      "english": "thông, thông suốt"
+    },
+    {
+      "simplified": "通知",
+      "pinyin": "tōngzhī",
+      "vi": "thông báo",
+      "english": "thông báo"
+    },
+    {
+      "simplified": "同时",
+      "pinyin": "tóngshí",
+      "vi": "đồng thời",
+      "english": "đồng thời"
+    },
+    {
+      "simplified": "同事",
+      "pinyin": "tóngshì",
+      "vi": "đồng nghiệp",
+      "english": "đồng nghiệp"
+    },
+    {
+      "simplified": "同样",
+      "pinyin": "tóngyàng",
+      "vi": "giống nhau, đều là",
+      "english": "giống nhau, đều là"
+    },
+    {
+      "simplified": "头",
+      "pinyin": "tóu",
+      "vi": "đầu",
+      "english": "đầu"
+    },
+    {
+      "simplified": "里头",
+      "pinyin": "lǐtou",
+      "vi": "bên trong",
+      "english": "bên trong"
+    },
+    {
+      "simplified": "头发",
+      "pinyin": "tóufà",
+      "vi": "tóc",
+      "english": "tóc"
+    },
+    {
+      "simplified": "图片",
+      "pinyin": "túpiàn",
+      "vi": "tranh ảnh",
+      "english": "tranh ảnh"
+    },
+    {
+      "simplified": "推",
+      "pinyin": "tuī",
+      "vi": "đẩy, đùn",
+      "english": "đẩy, đùn"
+    },
+    {
+      "simplified": "腿",
+      "pinyin": "tuǐ",
+      "vi": "chân",
+      "english": "chân"
+    },
+    {
+      "simplified": "外地",
+      "pinyin": "wàidì",
+      "vi": "nơi khác, vùng khác",
+      "english": "nơi khác, vùng khác"
+    },
+    {
+      "simplified": "外卖",
+      "pinyin": "wàimài",
+      "vi": "đồ bán bên ngoài",
+      "english": "đồ bán bên ngoài"
+    },
+    {
+      "simplified": "完",
+      "pinyin": "wán",
+      "vi": "hết, xong",
+      "english": "hết, xong"
+    },
+    {
+      "simplified": "完全",
+      "pinyin": "wánquán",
+      "vi": "đầy đủ, hoàn toàn",
+      "english": "đầy đủ, hoàn toàn"
+    },
+    {
+      "simplified": "晚安",
+      "pinyin": "wǎn’ān",
+      "vi": "chúc ngủ ngon",
+      "english": "chúc ngủ ngon"
+    },
+    {
+      "simplified": "晚报",
+      "pinyin": "wǎnbào",
+      "vi": "báo chiều",
+      "english": "báo chiều"
+    },
+    {
+      "simplified": "晚餐",
+      "pinyin": "wǎncān",
+      "vi": "bữa tối",
+      "english": "bữa tối"
+    },
+    {
+      "simplified": "晚会",
+      "pinyin": "wǎnhuì",
+      "vi": "dạ hội, đêm liên hoan",
+      "english": "dạ hội, đêm liên hoan"
+    },
+    {
+      "simplified": "碗",
+      "pinyin": "wǎn",
+      "vi": "bát, chén",
+      "english": "bát, chén"
+    },
+    {
+      "simplified": "万",
+      "pinyin": "wàn",
+      "vi": "vạn, mười nghìn",
+      "english": "vạn, mười nghìn"
+    },
+    {
+      "simplified": "网",
+      "pinyin": "wǎng",
+      "vi": "lưới; mạng (Internet)",
+      "english": "lưới; mạng (Internet)"
+    },
+    {
+      "simplified": "网球",
+      "pinyin": "wǎngqiú",
+      "vi": "quần vợt, tennis",
+      "english": "quần vợt, tennis"
+    },
+    {
+      "simplified": "网站",
+      "pinyin": "wǎngzhàn",
+      "vi": "website",
+      "english": "website"
+    },
+    {
+      "simplified": "往",
+      "pinyin": "wǎng",
+      "vi": "đi, đến, tới, hướng",
+      "english": "đi, đến, tới, hướng"
+    },
+    {
+      "simplified": "为",
+      "pinyin": "wéi",
+      "vi": "vì",
+      "english": "vì"
+    },
+    {
+      "simplified": "为什么",
+      "pinyin": "wèi shénme",
+      "vi": "tại sao, vì sao",
+      "english": "tại sao, vì sao"
+    },
+    {
+      "simplified": "味道",
+      "pinyin": "wèi·dào",
+      "vi": "mùi vị",
+      "english": "mùi vị"
+    },
+    {
+      "simplified": "喂",
+      "pinyin": "wèi",
+      "vi": "alo",
+      "english": "alo"
+    },
+    {
+      "simplified": "温度",
+      "pinyin": "wēndù",
+      "vi": "nhiệt độ",
+      "english": "nhiệt độ"
+    },
+    {
+      "simplified": "闻",
+      "pinyin": "wén",
+      "vi": "ngửi",
+      "english": "ngửi"
+    },
+    {
+      "simplified": "问路",
+      "pinyin": "wènlù",
+      "vi": "hỏi đường",
+      "english": "hỏi đường"
+    },
+    {
+      "simplified": "问题",
+      "pinyin": "wèntí",
+      "vi": "vấn đề, câu hỏi",
+      "english": "vấn đề, câu hỏi"
+    },
+    {
+      "simplified": "午餐",
+      "pinyin": "wǔcān",
+      "vi": "cơm trưa",
+      "english": "cơm trưa"
+    },
+    {
+      "simplified": "午睡",
+      "pinyin": "wǔshuì",
+      "vi": "giấc ngủ trưa",
+      "english": "giấc ngủ trưa"
+    },
+    {
+      "simplified": "西北",
+      "pinyin": "xīběi",
+      "vi": "tây bắc",
+      "english": "tây bắc"
+    },
+    {
+      "simplified": "西餐",
+      "pinyin": "xīcān",
+      "vi": "đồ ăn Tây",
+      "english": "đồ ăn Tây"
+    },
+    {
+      "simplified": "西方",
+      "pinyin": "xīfāng",
+      "vi": "phương Tây",
+      "english": "phương Tây"
+    },
+    {
+      "simplified": "西南",
+      "pinyin": "xīnán",
+      "vi": "tây nam",
+      "english": "tây nam"
+    },
+    {
+      "simplified": "西医",
+      "pinyin": "xīyī",
+      "vi": "Tây y, y học phương Tây",
+      "english": "Tây y, y học phương Tây"
+    },
+    {
+      "simplified": "洗衣机",
+      "pinyin": "xǐyījī",
+      "vi": "máy giặt",
+      "english": "máy giặt"
+    },
+    {
+      "simplified": "洗澡",
+      "pinyin": "xǐzǎo",
+      "vi": "tắm, tắm rửa",
+      "english": "tắm, tắm rửa"
+    },
+    {
+      "simplified": "下",
+      "pinyin": "xià",
+      "vi": "cái, lần",
+      "english": "cái, lần"
+    },
+    {
+      "simplified": "下雪",
+      "pinyin": "xià xuě",
+      "vi": "tuyết rơi",
+      "english": "tuyết rơi"
+    },
+    {
+      "simplified": "下周",
+      "pinyin": "xià zhōu",
+      "vi": "tuần sau",
+      "english": "tuần sau"
+    },
+    {
+      "simplified": "夏天",
+      "pinyin": "xiàtiān",
+      "vi": "mùa hè",
+      "english": "mùa hè"
+    },
+    {
+      "simplified": "相同",
+      "pinyin": "xiāngtóng",
+      "vi": "tương đồng, giống nhau",
+      "english": "tương đồng, giống nhau"
+    },
+    {
+      "simplified": "相信",
+      "pinyin": "xiāngxìn",
+      "vi": "tin tưởng",
+      "english": "tin tưởng"
+    },
+    {
+      "simplified": "响",
+      "pinyin": "xiǎng",
+      "vi": "vang, vang lên, kêu lên",
+      "english": "vang, vang lên, kêu lên"
+    },
+    {
+      "simplified": "想到",
+      "pinyin": "xiǎngdào",
+      "vi": "nghĩ đến, nghĩ tới",
+      "english": "nghĩ đến, nghĩ tới"
+    },
+    {
+      "simplified": "想法",
+      "pinyin": "xiǎng·fǎ",
+      "vi": "suy nghĩ, phương pháp",
+      "english": "suy nghĩ, phương pháp"
+    },
+    {
+      "simplified": "想起",
+      "pinyin": "xiǎngqǐ",
+      "vi": "nhớ ra",
+      "english": "nhớ ra"
+    },
+    {
+      "simplified": "向",
+      "pinyin": "xiàng",
+      "vi": "hướng, tới",
+      "english": "hướng, tới"
+    },
+    {
+      "simplified": "像",
+      "pinyin": "xiàng",
+      "vi": "giống",
+      "english": "giống"
+    },
+    {
+      "simplified": "小",
+      "pinyin": "Xiǎo",
+      "vi": "Tiểu",
+      "english": "Tiểu"
+    },
+    {
+      "simplified": "小声",
+      "pinyin": "xiǎo shēng",
+      "vi": "nhỏ tiếng, nói nhỏ",
+      "english": "nhỏ tiếng, nói nhỏ"
+    },
+    {
+      "simplified": "小时候",
+      "pinyin": "xiǎoshíhòu",
+      "vi": "lúc nhỏ",
+      "english": "lúc nhỏ"
+    },
+    {
+      "simplified": "小说",
+      "pinyin": "xiǎoshuō",
+      "vi": "tiểu thuyết",
+      "english": "tiểu thuyết"
+    },
+    {
+      "simplified": "小心",
+      "pinyin": "xiǎoxīn",
+      "vi": "cẩn thận",
+      "english": "cẩn thận"
+    },
+    {
+      "simplified": "小组",
+      "pinyin": "xiǎozǔ",
+      "vi": "tổ, nhóm nhỏ",
+      "english": "tổ, nhóm nhỏ"
+    },
+    {
+      "simplified": "校园",
+      "pinyin": "xiàoyuán",
+      "vi": "vườn trường",
+      "english": "vườn trường"
+    },
+    {
+      "simplified": "校长",
+      "pinyin": "xiàozhǎng",
+      "vi": "hiệu trưởng",
+      "english": "hiệu trưởng"
+    },
+    {
+      "simplified": "笑话",
+      "pinyin": "xiàohua",
+      "vi": "cười nhạo, chê cười",
+      "english": "cười nhạo, chê cười"
+    },
+    {
+      "simplified": "笑话儿",
+      "pinyin": "xiàohuar",
+      "vi": "truyện cười",
+      "english": "truyện cười"
+    },
+    {
+      "simplified": "鞋",
+      "pinyin": "xié",
+      "vi": "giày",
+      "english": "giày"
+    },
+    {
+      "simplified": "心里",
+      "pinyin": "xīn·lǐ",
+      "vi": "trong lòng",
+      "english": "trong lòng"
+    },
+    {
+      "simplified": "心中",
+      "pinyin": "xīnzhōng",
+      "vi": "trong lòng",
+      "english": "trong lòng"
+    },
+    {
+      "simplified": "新闻",
+      "pinyin": "xīnwén",
+      "vi": "tin tức, bản tin",
+      "english": "tin tức, bản tin"
+    },
+    {
+      "simplified": "信",
+      "pinyin": "xìn",
+      "vi": "thư",
+      "english": "thư"
+    },
+    {
+      "simplified": "信号",
+      "pinyin": "xìnhào",
+      "vi": "tín hiệu",
+      "english": "tín hiệu"
+    },
+    {
+      "simplified": "信息",
+      "pinyin": "xìnxī",
+      "vi": "thông tin, tin tức",
+      "english": "thông tin, tin tức"
+    },
+    {
+      "simplified": "信心",
+      "pinyin": "xìnxīn",
+      "vi": "lòng tin, sự tin tưởng",
+      "english": "lòng tin, sự tin tưởng"
+    },
+    {
+      "simplified": "信用卡",
+      "pinyin": "xìnyòngkǎ",
+      "vi": "thẻ tín dụng",
+      "english": "thẻ tín dụng"
+    },
+    {
+      "simplified": "星星",
+      "pinyin": "xīngxīng",
+      "vi": "ngôi sao",
+      "english": "ngôi sao"
+    },
+    {
+      "simplified": "行动",
+      "pinyin": "xíngdòng",
+      "vi": "hành động",
+      "english": "hành động"
+    },
+    {
+      "simplified": "行人",
+      "pinyin": "xíngrén",
+      "vi": "người đi đường",
+      "english": "người đi đường"
+    },
+    {
+      "simplified": "行为",
+      "pinyin": "xíngwéi",
+      "vi": "hành vi, hành động",
+      "english": "hành vi, hành động"
+    },
+    {
+      "simplified": "姓",
+      "pinyin": "xìng",
+      "vi": "họ",
+      "english": "họ"
+    },
+    {
+      "simplified": "姓名",
+      "pinyin": "xìngmíng",
+      "vi": "họ tên",
+      "english": "họ tên"
+    },
+    {
+      "simplified": "许多",
+      "pinyin": "xǔduō",
+      "vi": "rất nhiều, nhiều",
+      "english": "rất nhiều, nhiều"
+    },
+    {
+      "simplified": "选",
+      "pinyin": "xuǎn",
+      "vi": "chọn",
+      "english": "chọn"
+    },
+    {
+      "simplified": "学期",
+      "pinyin": "xuéqī",
+      "vi": "học kỳ",
+      "english": "học kỳ"
+    },
+    {
+      "simplified": "雪",
+      "pinyin": "xuě",
+      "vi": "tuyết",
+      "english": "tuyết"
+    },
+    {
+      "simplified": "颜色",
+      "pinyin": "yánsè",
+      "vi": "màu sắc",
+      "english": "màu sắc"
+    },
+    {
+      "simplified": "眼",
+      "pinyin": "yǎn",
+      "vi": "mắt",
+      "english": "mắt"
+    },
+    {
+      "simplified": "眼睛",
+      "pinyin": "yǎnjing",
+      "vi": "mắt",
+      "english": "mắt"
+    },
+    {
+      "simplified": "养",
+      "pinyin": "yǎng",
+      "vi": "dưỡng, nuôi",
+      "english": "dưỡng, nuôi"
+    },
+    {
+      "simplified": "样子",
+      "pinyin": "yàngzi",
+      "vi": "dáng vẻ, kiểu dáng",
+      "english": "dáng vẻ, kiểu dáng"
+    },
+    {
+      "simplified": "要求",
+      "pinyin": "yāoqiú",
+      "vi": "yêu cầu",
+      "english": "yêu cầu"
+    },
+    {
+      "simplified": "药",
+      "pinyin": "yào",
+      "vi": "thuốc",
+      "english": "thuốc"
+    },
+    {
+      "simplified": "药店",
+      "pinyin": "yàodiàn",
+      "vi": "tiệm thuốc, cửa hàng thuốc",
+      "english": "tiệm thuốc, cửa hàng thuốc"
+    },
+    {
+      "simplified": "药片",
+      "pinyin": "yàopiàn",
+      "vi": "viên thuốc",
+      "english": "viên thuốc"
+    },
+    {
+      "simplified": "也许",
+      "pinyin": "yěxǔ",
+      "vi": "cũng có thể, may ra",
+      "english": "cũng có thể, may ra"
+    },
+    {
+      "simplified": "夜",
+      "pinyin": "yè",
+      "vi": "đêm, ban đêm",
+      "english": "đêm, ban đêm"
+    },
+    {
+      "simplified": "夜里",
+      "pinyin": "yè·lǐ",
+      "vi": "giữa đêm",
+      "english": "giữa đêm"
+    },
+    {
+      "simplified": "一部分",
+      "pinyin": "yī bùfèn",
+      "vi": "một bộ phận, một phần",
+      "english": "một bộ phận, một phần"
+    },
+    {
+      "simplified": "一定",
+      "pinyin": "yīdìng",
+      "vi": "nhất định",
+      "english": "nhất định"
+    },
+    {
+      "simplified": "一共",
+      "pinyin": "yīgòng",
+      "vi": "tổng cộng",
+      "english": "tổng cộng"
+    },
+    {
+      "simplified": "一会儿",
+      "pinyin": "yīhuìr",
+      "vi": "một lúc, một lát",
+      "english": "một lúc, một lát"
+    },
+    {
+      "simplified": "一路平安",
+      "pinyin": "yīlù-píng’ān",
+      "vi": "thượng lộ bình an",
+      "english": "thượng lộ bình an"
+    },
+    {
+      "simplified": "一路顺风",
+      "pinyin": "yīlù-shùnfēng",
+      "vi": "thuận buồm xuôi gió",
+      "english": "thuận buồm xuôi gió"
+    },
+    {
+      "simplified": "已经",
+      "pinyin": "yǐjīng",
+      "vi": "đã, từng",
+      "english": "đã, từng"
+    },
+    {
+      "simplified": "以后",
+      "pinyin": "yǐhòu",
+      "vi": "sau này",
+      "english": "sau này"
+    },
+    {
+      "simplified": "以前",
+      "pinyin": "yǐqián",
+      "vi": "trước kia, trước đây",
+      "english": "trước kia, trước đây"
+    },
+    {
+      "simplified": "以上",
+      "pinyin": "yǐshàng",
+      "vi": "trở lên, phía trên",
+      "english": "trở lên, phía trên"
+    },
+    {
+      "simplified": "以为",
+      "pinyin": "yǐwéi",
+      "vi": "cho rằng",
+      "english": "cho rằng"
+    },
+    {
+      "simplified": "以下",
+      "pinyin": "yǐxià",
+      "vi": "dưới, trở xuống",
+      "english": "dưới, trở xuống"
+    },
+    {
+      "simplified": "椅子",
+      "pinyin": "yǐzi",
+      "vi": "ghế tựa, ghế dựa",
+      "english": "ghế tựa, ghế dựa"
+    },
+    {
+      "simplified": "一般",
+      "pinyin": "yībān",
+      "vi": "thông thường, phổ biến",
+      "english": "thông thường, phổ biến"
+    },
+    {
+      "simplified": "一点点",
+      "pinyin": "yī diǎndiǎn",
+      "vi": "một chút",
+      "english": "một chút"
+    },
+    {
+      "simplified": "一生",
+      "pinyin": "yīshēng",
+      "vi": "một đời, trọn đời",
+      "english": "một đời, trọn đời"
+    },
+    {
+      "simplified": "一直",
+      "pinyin": "yīzhí",
+      "vi": "luôn luôn, suốt, liên tục",
+      "english": "luôn luôn, suốt, liên tục"
+    },
+    {
+      "simplified": "亿",
+      "pinyin": "yì",
+      "vi": "trăm triệu",
+      "english": "trăm triệu"
+    },
+    {
+      "simplified": "意见",
+      "pinyin": "yì·jiàn",
+      "vi": "ý kiến",
+      "english": "ý kiến"
+    },
+    {
+      "simplified": "意思",
+      "pinyin": "yìsī",
+      "vi": "ý nghĩa",
+      "english": "ý nghĩa"
+    },
+    {
+      "simplified": "因为",
+      "pinyin": "yīn·wèi",
+      "vi": "bởi vì",
+      "english": "bởi vì"
+    },
+    {
+      "simplified": "阴",
+      "pinyin": "yīn",
+      "vi": "âm u, râm",
+      "english": "âm u, râm"
+    },
+    {
+      "simplified": "阴天",
+      "pinyin": "yīntiān",
+      "vi": "ngày âm u",
+      "english": "ngày âm u"
+    },
+    {
+      "simplified": "音乐",
+      "pinyin": "yīnyuè",
+      "vi": "âm nhạc",
+      "english": "âm nhạc"
+    },
+    {
+      "simplified": "音乐会",
+      "pinyin": "yīnyuèhuì",
+      "vi": "buổi hòa nhạc",
+      "english": "buổi hòa nhạc"
+    },
+    {
+      "simplified": "银行",
+      "pinyin": "yínháng",
+      "vi": "ngân hàng",
+      "english": "ngân hàng"
+    },
+    {
+      "simplified": "银行卡",
+      "pinyin": "yínhángkǎ",
+      "vi": "thẻ ngân hàng",
+      "english": "thẻ ngân hàng"
+    },
+    {
+      "simplified": "应该",
+      "pinyin": "yīnggāi",
+      "vi": "nên, đáng",
+      "english": "nên, đáng"
+    },
+    {
+      "simplified": "英文",
+      "pinyin": "Yīngwén",
+      "vi": "ngôn ngữ Anh",
+      "english": "ngôn ngữ Anh"
+    },
+    {
+      "simplified": "英语",
+      "pinyin": "Yīngyǔ",
+      "vi": "tiếng Anh, ngôn ngữ Anh",
+      "english": "tiếng Anh, ngôn ngữ Anh"
+    },
+    {
+      "simplified": "影片",
+      "pinyin": "yǐngpiàn",
+      "vi": "phim truyện",
+      "english": "phim truyện"
+    },
+    {
+      "simplified": "影响",
+      "pinyin": "yǐngxiǎng",
+      "vi": "ảnh hưởng",
+      "english": "ảnh hưởng"
+    },
+    {
+      "simplified": "永远",
+      "pinyin": "yǒng yuǎn",
+      "vi": "mãi mãi , vĩnh viễn",
+      "english": "mãi mãi , vĩnh viễn"
+    },
+    {
+      "simplified": "油",
+      "pinyin": "yóu",
+      "vi": "dầu, mỡ, xăng",
+      "english": "dầu, mỡ, xăng"
+    },
+    {
+      "simplified": "游客",
+      "pinyin": "yóukè",
+      "vi": "khách du lịch, du khách",
+      "english": "khách du lịch, du khách"
+    },
+    {
+      "simplified": "友好",
+      "pinyin": "yǒuhǎo",
+      "vi": "bạn tốt; thân thiện",
+      "english": "bạn tốt; thân thiện"
+    },
+    {
+      "simplified": "有人",
+      "pinyin": "yǒurén",
+      "vi": "có người, có ai",
+      "english": "có người, có ai"
+    },
+    {
+      "simplified": "有(一)点儿",
+      "pinyin": "yǒu(yī)diǎnr",
+      "vi": "có một chút, hơi",
+      "english": "có một chút, hơi"
+    },
+    {
+      "simplified": "有意思",
+      "pinyin": "yǒu yìsī",
+      "vi": "có ý nghĩa, hay",
+      "english": "có ý nghĩa, hay"
+    },
+    {
+      "simplified": "又",
+      "pinyin": "yòu",
+      "vi": "lại, vừa",
+      "english": "lại, vừa"
+    },
+    {
+      "simplified": "鱼",
+      "pinyin": "yú",
+      "vi": "cá",
+      "english": "cá"
+    },
+    {
+      "simplified": "语言",
+      "pinyin": "yǔyán",
+      "vi": "ngôn ngữ",
+      "english": "ngôn ngữ"
+    },
+    {
+      "simplified": "原来",
+      "pinyin": "yuánlái",
+      "vi": "ban đầu; thì ra, hóa ra",
+      "english": "ban đầu; thì ra, hóa ra"
+    },
+    {
+      "simplified": "原因",
+      "pinyin": "yuányīn",
+      "vi": "nguyên nhân",
+      "english": "nguyên nhân"
+    },
+    {
+      "simplified": "院",
+      "pinyin": "yuàn",
+      "vi": "viện",
+      "english": "viện"
+    },
+    {
+      "simplified": "院长",
+      "pinyin": "yuànzhǎng",
+      "vi": "viện trưởng",
+      "english": "viện trưởng"
+    },
+    {
+      "simplified": "院子",
+      "pinyin": "yuànzi",
+      "vi": "sân nhỏ, sân trong, vườn",
+      "english": "sân nhỏ, sân trong, vườn"
+    },
+    {
+      "simplified": "愿意",
+      "pinyin": "yuànyì",
+      "vi": "đồng ý",
+      "english": "đồng ý"
+    },
+    {
+      "simplified": "月份",
+      "pinyin": "yuèfèn",
+      "vi": "tháng",
+      "english": "tháng"
+    },
+    {
+      "simplified": "越",
+      "pinyin": "yuè",
+      "vi": "vượt, vượt qua",
+      "english": "vượt, vượt qua"
+    },
+    {
+      "simplified": "越来越",
+      "pinyin": "yuè lái yuè",
+      "vi": "càng ngày càng",
+      "english": "càng ngày càng"
+    },
+    {
+      "simplified": "云",
+      "pinyin": "yún",
+      "vi": "mây",
+      "english": "mây"
+    },
+    {
+      "simplified": "运动",
+      "pinyin": "yùndòng",
+      "vi": "vận động",
+      "english": "vận động"
+    },
+    {
+      "simplified": "咱",
+      "pinyin": "zán",
+      "vi": "tôi, ta, mình",
+      "english": "tôi, ta, mình"
+    },
+    {
+      "simplified": "咱们",
+      "pinyin": "zánmen",
+      "vi": "chúng ta, chúng mình",
+      "english": "chúng ta, chúng mình"
+    },
+    {
+      "simplified": "脏",
+      "pinyin": "zāng",
+      "vi": "bẩn, dơ",
+      "english": "bẩn, dơ"
+    },
+    {
+      "simplified": "早餐",
+      "pinyin": "zǎocān",
+      "vi": "bữa sáng",
+      "english": "bữa sáng"
+    },
+    {
+      "simplified": "早晨",
+      "pinyin": "zǎochén",
+      "vi": "buổi sáng, sáng sớm",
+      "english": "buổi sáng, sáng sớm"
+    },
+    {
+      "simplified": "早就",
+      "pinyin": "zǎo jiù",
+      "vi": "sớm đã, từ lâu",
+      "english": "sớm đã, từ lâu"
+    },
+    {
+      "simplified": "怎么办",
+      "pinyin": "zěnme bàn",
+      "vi": "làm thế nào",
+      "english": "làm thế nào"
+    },
+    {
+      "simplified": "怎么样",
+      "pinyin": "zěnmeyàng",
+      "vi": "như thế nào, làm sao",
+      "english": "như thế nào, làm sao"
+    },
+    {
+      "simplified": "怎样",
+      "pinyin": "zěnyàng",
+      "vi": "như thế nào, làm sao",
+      "english": "như thế nào, làm sao"
+    },
+    {
+      "simplified": "站",
+      "pinyin": "zhàn",
+      "vi": "đứng, chiến đấu",
+      "english": "đứng, chiến đấu"
+    },
+    {
+      "simplified": "站住",
+      "pinyin": "zhànzhù",
+      "vi": "đứng yên, đứng lại",
+      "english": "đứng yên, đứng lại"
+    },
+    {
+      "simplified": "长",
+      "pinyin": "cháng",
+      "vi": "dài",
+      "english": "dài"
+    },
+    {
+      "simplified": "长大",
+      "pinyin": "zhǎngdà",
+      "vi": "lớn lên, khôn lớn",
+      "english": "lớn lên, khôn lớn"
+    },
+    {
+      "simplified": "找出",
+      "pinyin": "zhǎochū",
+      "vi": "tìm ra",
+      "english": "tìm ra"
+    },
+    {
+      "simplified": "照顾",
+      "pinyin": "zhàogù",
+      "vi": "chăm sóc",
+      "english": "chăm sóc"
+    },
+    {
+      "simplified": "照片",
+      "pinyin": "zhàopiàn",
+      "vi": "tấm ảnh, bức ảnh",
+      "english": "tấm ảnh, bức ảnh"
+    },
+    {
+      "simplified": "照相",
+      "pinyin": "zhàoxiàng",
+      "vi": "chụp ảnh, chụp hình",
+      "english": "chụp ảnh, chụp hình"
+    },
+    {
+      "simplified": "这么",
+      "pinyin": "zhème",
+      "vi": "như thế, như vậy, như này",
+      "english": "như thế, như vậy, như này"
+    },
+    {
+      "simplified": "这时候/这时",
+      "pinyin": "zhè shíhòu",
+      "vi": "lúc đó, lúc đấy, lúc này",
+      "english": "lúc đó, lúc đấy, lúc này"
+    },
+    {
+      "simplified": "这样",
+      "pinyin": "zhèyàng",
+      "vi": "như vậy, như thế, như này",
+      "english": "như vậy, như thế, như này"
+    },
+    {
+      "simplified": "真正",
+      "pinyin": "zhēnzhèng",
+      "vi": "chân chính",
+      "english": "chân chính"
+    },
+    {
+      "simplified": "正常",
+      "pinyin": "zhèngcháng",
+      "vi": "bình thường, như thường",
+      "english": "bình thường, như thường"
+    },
+    {
+      "simplified": "正确",
+      "pinyin": "zhèngquè",
+      "vi": "chính xác, đúng đắn",
+      "english": "chính xác, đúng đắn"
+    },
+    {
+      "simplified": "正是",
+      "pinyin": "zhèng shì",
+      "vi": "đúng là, chính là",
+      "english": "đúng là, chính là"
+    },
+    {
+      "simplified": "直接",
+      "pinyin": "zhíjiē",
+      "vi": "trực tiếp",
+      "english": "trực tiếp"
+    },
+    {
+      "simplified": "只",
+      "pinyin": "zhǐ",
+      "vi": "chỉ, chỉ có",
+      "english": "chỉ, chỉ có"
+    },
+    {
+      "simplified": "只能",
+      "pinyin": "zhǐ néng",
+      "vi": "chỉ có thể",
+      "english": "chỉ có thể"
+    },
+    {
+      "simplified": "只要",
+      "pinyin": "zhǐyào",
+      "vi": "chỉ cần",
+      "english": "chỉ cần"
+    },
+    {
+      "simplified": "纸",
+      "pinyin": "zhǐ",
+      "vi": "giấy",
+      "english": "giấy"
+    },
+    {
+      "simplified": "中餐",
+      "pinyin": "zhōngcān",
+      "vi": "bữa trưa",
+      "english": "bữa trưa"
+    },
+    {
+      "simplified": "中级",
+      "pinyin": "zhōngjí",
+      "vi": "trung cấp",
+      "english": "trung cấp"
+    },
+    {
+      "simplified": "中年",
+      "pinyin": "zhōngnián",
+      "vi": "trung niên",
+      "english": "trung niên"
+    },
+    {
+      "simplified": "中小学",
+      "pinyin": "zhōng- xiǎoxué",
+      "vi": "tiểu học và trung học",
+      "english": "tiểu học và trung học"
+    },
+    {
+      "simplified": "中心",
+      "pinyin": "zhōngxīn",
+      "vi": "trung tâm, vị trí hạt nhân",
+      "english": "trung tâm, vị trí hạt nhân"
+    },
+    {
+      "simplified": "中医",
+      "pinyin": "zhōngyī",
+      "vi": "Đông y, y học phương Đông",
+      "english": "Đông y, y học phương Đông"
+    },
+    {
+      "simplified": "重视",
+      "pinyin": "zhòngshì",
+      "vi": "coi trọng, chú trọng",
+      "english": "coi trọng, chú trọng"
+    },
+    {
+      "simplified": "周",
+      "pinyin": "zhōu",
+      "vi": "tuần",
+      "english": "tuần"
+    },
+    {
+      "simplified": "周末",
+      "pinyin": "zhōumò",
+      "vi": "cuối tuần",
+      "english": "cuối tuần"
+    },
+    {
+      "simplified": "周年",
+      "pinyin": "zhōunián",
+      "vi": "đầy năm, năm tròn",
+      "english": "đầy năm, năm tròn"
+    },
+    {
+      "simplified": "主人",
+      "pinyin": "zhǔ·rén",
+      "vi": "chủ nhân, chủ sở hữu",
+      "english": "chủ nhân, chủ sở hữu"
+    },
+    {
+      "simplified": "主要",
+      "pinyin": "zhǔyào",
+      "vi": "chủ yếu",
+      "english": "chủ yếu"
+    },
+    {
+      "simplified": "住房",
+      "pinyin": "zhùfáng",
+      "vi": "nhà ở, phòng ở",
+      "english": "nhà ở, phòng ở"
+    },
+    {
+      "simplified": "住院",
+      "pinyin": "zhùyuàn",
+      "vi": "nằm viện, nhập viện",
+      "english": "nằm viện, nhập viện"
+    },
+    {
+      "simplified": "装",
+      "pinyin": "zhuāng",
+      "vi": "đựng",
+      "english": "đựng"
+    },
+    {
+      "simplified": "准确",
+      "pinyin": "zhǔnquè",
+      "vi": "chuẩn xác, chính xác",
+      "english": "chuẩn xác, chính xác"
+    },
+    {
+      "simplified": "自己",
+      "pinyin": "zìjǐ",
+      "vi": "tự mình, tự bản thân",
+      "english": "tự mình, tự bản thân"
+    },
+    {
+      "simplified": "自行车",
+      "pinyin": "zìxíngchē",
+      "vi": "xe đạp",
+      "english": "xe đạp"
+    },
+    {
+      "simplified": "自由",
+      "pinyin": "zìyóu",
+      "vi": "tự do",
+      "english": "tự do"
+    },
+    {
+      "simplified": "走过",
+      "pinyin": "zǒuguò",
+      "vi": "đi qua, bước qua",
+      "english": "đi qua, bước qua"
+    },
+    {
+      "simplified": "走进",
+      "pinyin": "zǒujìn",
+      "vi": "đi vào, bước vào",
+      "english": "đi vào, bước vào"
+    },
+    {
+      "simplified": "走开",
+      "pinyin": "zǒukāi",
+      "vi": "đi ra, tránh ra",
+      "english": "đi ra, tránh ra"
+    },
+    {
+      "simplified": "租",
+      "pinyin": "zū",
+      "vi": "thuê, mướn",
+      "english": "thuê, mướn"
+    },
+    {
+      "simplified": "组",
+      "pinyin": "zǔ",
+      "vi": "tổ, nhóm",
+      "english": "tổ, nhóm"
+    },
+    {
+      "simplified": "组成",
+      "pinyin": "zǔchéng",
+      "vi": "cấu thành, tạo thành",
+      "english": "cấu thành, tạo thành"
+    },
+    {
+      "simplified": "组长",
+      "pinyin": "zǔzhǎng",
+      "vi": "tổ trưởng, nhóm trưởng",
+      "english": "tổ trưởng, nhóm trưởng"
+    },
+    {
+      "simplified": "嘴",
+      "pinyin": "zuǐ",
+      "vi": "miệng",
+      "english": "miệng"
+    },
+    {
+      "simplified": "最近",
+      "pinyin": "zuìjìn",
+      "vi": "gần đây",
+      "english": "gần đây"
+    },
+    {
+      "simplified": "作家",
+      "pinyin": "zuòjiā",
+      "vi": "tác giả, nhà văn",
+      "english": "tác giả, nhà văn"
+    },
+    {
+      "simplified": "作文",
+      "pinyin": "zuòwén",
+      "vi": "bài văn",
+      "english": "bài văn"
+    },
+    {
+      "simplified": "作业",
+      "pinyin": "zuòyè",
+      "vi": "bài tập",
+      "english": "bài tập"
+    },
+    {
+      "simplified": "作用",
+      "pinyin": "zuòyòng",
+      "vi": "công dụng",
+      "english": "công dụng"
+    },
+    {
+      "simplified": "座位",
+      "pinyin": "zuò·wèi",
+      "vi": "chỗ ngồi",
+      "english": "chỗ ngồi"
+    },
+    {
+      "simplified": "做到",
+      "pinyin": "zuòdào",
+      "vi": "làm được",
+      "english": "làm được"
+    },
+    {
+      "simplified": "做法",
+      "pinyin": "zuò·fǎ",
+      "vi": "cách làm",
+      "english": "cách làm"
+    },
+    {
+      "simplified": "做饭",
+      "pinyin": "zuòfàn",
+      "vi": "nấu cơm",
+      "english": "nấu cơm"
+    }
+  ]
+}
