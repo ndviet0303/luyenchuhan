@@ -587,28 +587,28 @@ body {
 
 .box-grid-lines .line-h {
     position: absolute;
-    top: 50%; left: 0; width: 100%; height: 1px;
-    background: dashed 1px rgba(255, 255, 255, 0.15);
+    top: 50%; left: 0; width: 100%; height: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .box-grid-lines .line-v {
     position: absolute;
-    top: 0; left: 50%; width: 1px; height: 100%;
-    background: dashed 1px rgba(255, 255, 255, 0.15);
+    top: 0; left: 50%; width: 0; height: 100%;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .box-grid-lines .line-d1 {
     position: absolute;
-    top: 0; left: 0; width: 141.4%; height: 1px;
-    background: dashed 1px rgba(255, 255, 255, 0.1);
+    top: 0; left: 0; width: 141.4%; height: 0;
+    border-top: 1px dashed rgba(255, 255, 255, 0.18);
     transform-origin: 0 0;
     transform: rotate(45deg);
 }
 
 .box-grid-lines .line-d2 {
     position: absolute;
-    top: 0; right: 0; width: 141.4%; height: 1px;
-    background: dashed 1px rgba(255, 255, 255, 0.1);
+    top: 0; right: 0; width: 141.4%; height: 0;
+    border-top: 1px dashed rgba(255, 255, 255, 0.18);
     transform-origin: 100% 0;
     transform: rotate(-45deg);
 }
@@ -1825,3 +1825,109 @@ body {
 .comp-pill-item .cn { font-weight: 700; font-size: 1.25rem; color: #38bdf8; }
 .comp-pill-item .py { color: white; }
 .comp-pill-item .hv { color: var(--text-muted); font-size: 0.85rem; }
+
+/* Components & Accordion Content Styles */
+.components-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+    padding: 0.5rem 0;
+}
+
+.component-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    transition: all 0.25s ease;
+}
+
+.component-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: #38bdf8;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(56, 189, 248, 0.15);
+}
+
+.comp-head {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.comp-char {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    background: rgba(56, 189, 248, 0.15);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    border-radius: 8px;
+    color: #38bdf8;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: "KaiTi", "STKaiti", serif;
+    flex-shrink: 0;
+}
+
+.comp-name {
+    font-weight: 700;
+    color: #f8fafc;
+    font-size: 1.05rem;
+    text-transform: capitalize;
+}
+
+.comp-desc {
+    color: #94a3b8;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.def-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.def-list li {
+    padding: 0.6rem 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-left: 3px solid #38bdf8;
+    border-radius: 0 8px 8px 0;
+    color: #e2e8f0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.variants-box {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+}
+
+.var-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.05rem;
+    color: #cbd5e1;
+}
+
+.var-item .cn-font {
+    font-size: 2rem;
+    color: #38bdf8;
+    font-family: "KaiTi", "STKaiti", serif;
+}

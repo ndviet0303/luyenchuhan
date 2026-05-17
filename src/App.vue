@@ -62,7 +62,8 @@
 
       <div class="header-actions" style="display:flex; align-items:center; gap:0.8rem;">
         <button @click="openAddWordModal" class="btn btn-primary btn-sm btn-glow tooltip" data-tooltip="Thêm từ mới vào HSK" style="display:flex; align-items:center; gap:0.4rem; padding:0.4rem 0.8rem;">
-          <span>➕ Thêm từ</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          <span>Thêm từ</span>
         </button>
         <button @click="switchTab('dict')" class="icon-btn tooltip" data-tooltip="Sổ tay từ vựng">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
@@ -117,9 +118,16 @@
               </div>
             </div>
             <div class="vocab-actions-bar" @click.stop>
-              <button class="btn btn-primary btn-sm btn-practice-vocab" @click.stop="selectWord(word)">📖 Chi tiết</button>
-              <button class="btn btn-icon btn-sm tooltip" data-tooltip="Nghe phát âm" @click.stop="speak(word.simplified)">🔊</button>
-              <button class="btn btn-icon btn-sm tooltip" data-tooltip="Chỉnh sửa từ" @click.stop="openEditWordModal(word, currentLevel)">✏️</button>
+              <button class="btn btn-primary btn-sm btn-practice-vocab" @click.stop="selectWord(word)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right:4px;"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                Chi tiết
+              </button>
+              <button class="btn btn-icon btn-sm tooltip" data-tooltip="Nghe phát âm" @click.stop="speak(word.simplified)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+              </button>
+              <button class="btn btn-icon btn-sm tooltip" data-tooltip="Chỉnh sửa từ" @click.stop="openEditWordModal(word, currentLevel)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>
+              </button>
               <button class="btn btn-icon btn-sm bookmark-action tooltip" :class="{ saved: isSaved(word.simplified) }" data-tooltip="Lưu sổ tay" @click.stop="toggleBookmark(word.simplified)">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" :fill="isSaved(word.simplified) ? 'currentColor' : 'none'" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
               </button>
@@ -205,7 +213,12 @@
           
           <div class="accordion-item glass-panel" :class="{ open: accOpen.mnemonic }">
             <div @click="accOpen.mnemonic = !accOpen.mnemonic" class="accordion-header">
-              <div class="acc-title"><span class="acc-icon">💡</span><h3>Mẹo hán tự</h3></div>
+              <div class="acc-title">
+                <span class="acc-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                </span>
+                <h3>Mẹo hán tự</h3>
+              </div>
               <button class="acc-toggle"><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
             </div>
             <div class="accordion-body">
@@ -215,53 +228,63 @@
 
           <div class="accordion-item glass-panel" :class="{ open: accOpen.components }">
             <div @click="accOpen.components = !accOpen.components" class="accordion-header">
-              <div class="acc-title"><span class="acc-icon">🧩</span><h3>Bộ thành phần</h3></div>
+              <div class="acc-title"><span class="acc-icon">🧩</span><h3>Bộ thủ & Thành phần</h3></div>
               <button class="acc-toggle"><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
             </div>
             <div class="accordion-body">
-              <ol class="component-list">
-                <li v-for="comp in currentWordData.components" :key="comp.char">
-                  <span class="comp-char">{{ comp.char }}</span>
-                  <div class="comp-info">
+              <div class="components-grid">
+                <div v-for="(comp, i) in currentWordData.components" :key="i" class="component-card">
+                  <div class="comp-head">
+                    <span class="comp-char">{{ comp.char }}</span>
                     <span class="comp-name">{{ comp.name }}</span>
-                    <span class="comp-desc">{{ comp.desc }}</span>
                   </div>
-                </li>
-              </ol>
+                  <p class="comp-desc">{{ comp.desc }}</p>
+                </div>
+              </div>
             </div>
           </div>
 
           <div class="accordion-item glass-panel" :class="{ open: accOpen.variants }">
             <div @click="accOpen.variants = !accOpen.variants" class="accordion-header">
-              <div class="acc-title"><span class="acc-icon">🔄</span><h3>Biến thể & Phồn thể</h3></div>
+              <div class="acc-title"><span class="acc-icon">🔄</span><h3>Phồn thể & Dị thể</h3></div>
               <button class="acc-toggle"><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
             </div>
             <div class="accordion-body">
               <div class="variants-box">
-                <div class="var-item"><span>Giản thể:</span><strong class="char-lg">{{ currentWordData.variants.sim }}</strong></div>
-                <div class="var-item"><span>Phồn thể:</span><strong class="char-lg">{{ currentWordData.variants.tra }}</strong></div>
+                <div class="var-item"><span>Giản thể (Sim):</span> <strong class="cn-font">{{ currentWordData.variants?.sim || currentChar }}</strong></div>
+                <div class="var-item"><span>Phồn thể (Tra):</span> <strong class="cn-font">{{ currentWordData.variants?.tra || currentChar }}</strong></div>
               </div>
             </div>
           </div>
 
           <div class="accordion-item glass-panel" :class="{ open: accOpen.definition }">
             <div @click="accOpen.definition = !accOpen.definition" class="accordion-header">
-              <div class="acc-title"><span class="acc-icon">🇻🇳</span><h3>Hán Việt & Từ điển phổ thông</h3></div>
+              <div class="acc-title">
+                <span class="acc-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                </span>
+                <h3>Định nghĩa chi tiết</h3>
+              </div>
               <button class="acc-toggle"><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
             </div>
             <div class="accordion-body">
-              <div class="dict-definition">
-                <div class="sino-viet-title"><span>Hán Việt: </span><h3>{{ currentWordData.hanviet }}</h3></div>
-                <div class="dict-content">
-                  <p v-for="(def, i) in currentWordData.definition" :key="i" class="dict-entry">{{ def }}</p>
-                </div>
+              <div style="margin-bottom:0.8rem; color:#93c5fd; font-weight:bold; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:0.4rem;">
+                Hán Việt: <span style="color:#38bdf8;">{{ currentWordData.hanviet || getHanVietWord(currentChar) }}</span>
               </div>
+              <ul class="def-list">
+                <li v-for="(def, idx) in currentWordData.definition" :key="idx">{{ def }}</li>
+              </ul>
             </div>
           </div>
 
           <div class="accordion-item glass-panel" :class="{ open: accOpen.examples }">
             <div @click="accOpen.examples = !accOpen.examples" class="accordion-header">
-              <div class="acc-title"><span class="acc-icon">📖</span><h3>Mẫu câu & Ví dụ thực tế</h3></div>
+              <div class="acc-title">
+                <span class="acc-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                </span>
+                <h3>Mẫu câu & Ví dụ thực tế</h3>
+              </div>
               <button class="acc-toggle"><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
             </div>
             <div class="accordion-body">
@@ -269,7 +292,9 @@
                 <div v-for="(sen, idx) in getExamplesFor(currentChar)" :key="idx" class="sen-item-box">
                   <div class="sen-top">
                     <span class="cn-text">{{ sen.cn }}</span>
-                    <button class="btn-audio-circle-sm" @click="speak(sen.cn)" title="Nghe câu này">🔊</button>
+                    <button class="btn-audio-circle-sm" @click="speak(sen.cn)" title="Nghe câu này">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+                    </button>
                   </div>
                   <div class="py-text">{{ sen.py }}</div>
                   <div class="vi-text">{{ sen.vi }}</div>
@@ -359,7 +384,9 @@
                     <div class="dict-char-grp">
                       <span class="cn">{{ w.simplified || w.char }}</span>
                       <span class="py">{{ w.pinyin }}</span>
-                      <button class="audio-btn-micro tooltip" data-tooltip="Nghe phát âm" @click.stop="speak(w.simplified || w.char)">🔊</button>
+                      <button class="audio-btn-micro tooltip" data-tooltip="Nghe phát âm" @click.stop="speak(w.simplified || w.char)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+                      </button>
                     </div>
                     <div class="dict-trans-grp">
                       <span class="hv">[{{ w.hanviet || getHanVietWord(w.simplified || w.char) }}]</span>
@@ -372,10 +399,11 @@
                   <div class="dict-card-actions">
                     <button class="btn btn-primary btn-sm" @click.stop="loadCharFromDict(w.simplified || w.char)">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
-                      Chi tiết 📖
+                      Chi tiết
                     </button>
                     <button class="btn btn-outline btn-sm tooltip" data-tooltip="Chỉnh sửa từ" @click.stop="openEditWordModal(w, w.level || 1)">
-                      ✏️ Sửa từ
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right:4px;"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>
+                      Sửa từ
                     </button>
                     <button class="btn btn-outline btn-sm bookmark-action tooltip" :class="{ saved: isSaved(w.simplified || w.char) }" data-tooltip="Lưu sổ tay" @click.stop="toggleBookmark(w.simplified || w.char)">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" :fill="isSaved(w.simplified || w.char) ? 'currentColor' : 'none'" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
@@ -386,8 +414,9 @@
                 
                 <div class="dict-card-examples">
                   <div class="examples-header" @click.stop="toggleDictExample(w.simplified || w.char)">
-                    <div class="ex-title">
-                      <span>💡</span> <strong>Ví dụ & Mẫu câu ứng dụng</strong>
+                    <div class="ex-title" style="display:flex; align-items:center; gap:6px;">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                      <strong>Ví dụ & Mẫu câu ứng dụng</strong>
                     </div>
                     <span class="ex-toggle-btn">{{ expandedDict[w.simplified || w.char] ? '▲ Ẩn bớt' : '▼ Xem ví dụ' }}</span>
                   </div>
@@ -399,7 +428,9 @@
                           <div class="sen-py">{{ sen.py }}</div>
                           <div class="sen-vi">{{ sen.vi }}</div>
                         </div>
-                        <button class="btn-audio-circle tooltip" data-tooltip="Nghe câu này" @click.stop="speak(sen.cn)">🔊</button>
+                        <button class="btn-audio-circle tooltip" data-tooltip="Nghe câu này" @click.stop="speak(sen.cn)">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+                        </button>
                       </div>
                     </div>
                     <div class="related-compounds" v-if="getRelatedCompounds(w.simplified || w.char).length > 0">
@@ -430,7 +461,9 @@
                   <div class="dict-char-grp">
                     <span class="cn">{{ w.simplified }}</span>
                     <span class="py">{{ w.pinyin }}</span>
-                    <button class="audio-btn-micro tooltip" data-tooltip="Nghe phát âm" @click.stop="speak(w.simplified)">🔊</button>
+                    <button class="audio-btn-micro tooltip" data-tooltip="Nghe phát âm" @click.stop="speak(w.simplified)">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+                    </button>
                   </div>
                   <div class="dict-trans-grp">
                     <span class="hv">[{{ getHanVietWord(w.simplified) }}]</span>
@@ -443,10 +476,11 @@
                 <div class="dict-card-actions">
                   <button class="btn btn-primary btn-sm" @click.stop="loadCharFromDict(w.simplified)">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
-                    Chi tiết 📖
+                    Chi tiết
                   </button>
                   <button class="btn btn-outline btn-sm tooltip" data-tooltip="Chỉnh sửa từ" @click.stop="openEditWordModal(w, w.level || 1)">
-                    ✏️ Sửa từ
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right:4px;"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>
+                    Sửa từ
                   </button>
                   <button class="btn btn-outline btn-sm bookmark-action tooltip" :class="{ saved: isSaved(w.simplified) }" data-tooltip="Lưu sổ tay" @click.stop="toggleBookmark(w.simplified)">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" :fill="isSaved(w.simplified) ? 'currentColor' : 'none'" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
@@ -457,8 +491,9 @@
               
               <div class="dict-card-examples">
                 <div class="examples-header" @click.stop="toggleDictExample(w.simplified)">
-                  <div class="ex-title">
-                    <span>💡</span> <strong>Ví dụ & Mẫu câu ứng dụng</strong>
+                  <div class="ex-title" style="display:flex; align-items:center; gap:6px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                    <strong>Ví dụ & Mẫu câu ứng dụng</strong>
                   </div>
                   <span class="ex-toggle-btn">{{ expandedDict[w.simplified] ? '▲ Ẩn bớt' : '▼ Xem ví dụ' }}</span>
                 </div>
@@ -470,7 +505,9 @@
                         <div class="sen-py">{{ sen.py }}</div>
                         <div class="sen-vi">{{ sen.vi }}</div>
                       </div>
-                      <button class="btn-audio-circle tooltip" data-tooltip="Nghe câu này" @click.stop="speak(sen.cn)">🔊</button>
+                      <button class="btn-audio-circle tooltip" data-tooltip="Nghe câu này" @click.stop="speak(sen.cn)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+                      </button>
                     </div>
                   </div>
                   <div class="related-compounds" v-if="getRelatedCompounds(w.simplified).length > 0">
@@ -544,7 +581,9 @@
             </div>
             <!-- Success overlay -->
             <div class="quiz-success-overlay" :class="{ active: quizCompleted }">
-              <div class="trophy-icon">🏆</div>
+              <div class="trophy-icon" style="margin-bottom:0.5rem;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg>
+              </div>
               <div class="celebrate-text">Tuyệt Vời!</div>
               <p>Bạn đã viết chính xác thứ tự nét chữ <strong style="color:var(--accent); font-size:1.3rem;">{{ currentChar }}</strong></p>
               
@@ -557,7 +596,7 @@
                 >
                   👉 Chữ tiếp theo: "{{ practiceWord.charAt(practiceCharIndex + 1) }}"
                 </button>
-                <button v-else @click="closePractice" class="btn btn-primary btn-glow">Hoàn tất 🎉</button>
+                <button v-else @click="closePractice" class="btn btn-primary btn-glow">Hoàn tất</button>
               </div>
             </div>
           </div>
@@ -576,15 +615,17 @@
         
         <div class="practice-right-col">
           <div class="practice-examples-box glass-panel">
-            <div class="ex-header">
-              <span class="ex-icon" style="font-size:1.5rem;">💡</span>
+            <div class="ex-header" style="display:flex; align-items:center; gap:8px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
               <h4>Ví dụ & Mẫu câu ứng dụng với <span class="text-accent">{{ practiceWord }}</span></h4>
             </div>
             <div class="ex-sentences-list">
               <div v-for="(sen, idx) in getExamplesFor(practiceWord, practiceWordObj)" :key="idx" class="ex-sen-card">
                 <div class="sen-top">
                   <span class="cn">{{ sen.cn }}</span>
-                  <button class="btn-audio-mini tooltip" data-tooltip="Nghe câu này" @click="speak(sen.cn)">🔊</button>
+                  <button class="btn-audio-mini tooltip" data-tooltip="Nghe câu này" @click="speak(sen.cn)">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+                  </button>
                 </div>
                 <div class="py">{{ sen.py }}</div>
                 <div class="vi">{{ sen.vi }}</div>
@@ -592,7 +633,10 @@
             </div>
             
             <div class="related-compounds-section" v-if="getRelatedCompounds(practiceWord).length > 0 || getRelatedCompounds(currentChar).length > 0">
-              <h5 class="comp-header">🌟 Từ ghép HSK liên quan</h5>
+              <h5 class="comp-header" style="display:flex; align-items:center; gap:6px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                Từ ghép HSK liên quan
+              </h5>
               <div class="comp-list-pills">
                 <div 
                   v-for="cmp in (getRelatedCompounds(practiceWord).length > 0 ? getRelatedCompounds(practiceWord) : getRelatedCompounds(currentChar))" 
@@ -618,7 +662,9 @@
     <div class="modal-container glass-panel" style="max-width: 600px; padding: 2rem; max-height: 90vh; overflow-y: auto;">
       <div class="modal-header" style="margin-bottom: 1.5rem;">
         <h3 style="color:#38bdf8; display:flex; align-items:center; gap:0.5rem;">
-          <span>{{ newWordForm.isEdit ? '✏️ Chỉnh Sửa Từ Vựng' : '➕ Thêm Từ Vựng Mới' }}</span>
+          <svg v-if="newWordForm.isEdit" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>
+          <svg v-else xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          <span>{{ newWordForm.isEdit ? 'Chỉnh Sửa Từ Vựng' : 'Thêm Từ Vựng Mới' }}</span>
         </h3>
         <button @click="closeAddModal" class="btn-close-modal tooltip" data-tooltip="Đóng (ESC)">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
@@ -627,7 +673,7 @@
 
       <div class="form-grid" style="display:flex; flex-direction:column; gap:1.2rem; text-align:left;">
         <div class="form-group">
-          <label style="display:block; margin-bottom:0.4rem; color:#93c5fd; font-weight:bold;">🔑 Mã xác nhận (Mật khẩu)*</label>
+          <label style="display:block; margin-bottom:0.4rem; color:#93c5fd; font-weight:bold;">Mã xác nhận (Mật khẩu)*</label>
           <input v-model="adminPass" type="password" placeholder="Nhập mã bảo mật quản trị..." class="custom-input" style="width:100%; padding:0.8rem; border-radius:8px; border:1px solid rgba(255,255,255,0.2); background:rgba(0,0,0,0.5); color:white;">
         </div>
 
@@ -671,7 +717,7 @@
 
         <div style="display:flex; justify-content:flex-end; gap:1rem; margin-top:1rem;">
           <button @click="closeAddModal" class="btn btn-outline" style="padding: 0.8rem 1.5rem;">Hủy bỏ</button>
-          <button @click="saveCustomWord" class="btn btn-primary btn-glow" style="padding: 0.8rem 2rem;">Lưu Từ Vựng 💾</button>
+          <button @click="saveCustomWord" class="btn btn-primary btn-glow" style="padding: 0.8rem 2rem;">Lưu Từ Vựng</button>
         </div>
       </div>
     </div>
@@ -679,8 +725,8 @@
 
   <!-- Toast Message -->
   <div class="toast-container" :class="{ show: toast.visible }">
-    <div class="toast-content">
-      <span class="toast-icon">✨</span>
+    <div class="toast-content" style="display:flex; align-items:center; gap:8px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
       <span>{{ toast.text }}</span>
     </div>
   </div>
@@ -1400,7 +1446,7 @@ const toggleBookmarkWord = (wordObj) => {
       hanviet: wordObj?.hanviet || getHanVietWord(word),
       english: wordObj?.english || currentWordData.value?.definition?.[0] || 'Từ vựng HSK'
     });
-    showToast('Đã lưu vào sổ tay từ vựng! ✨');
+    showToast('Đã lưu vào sổ tay từ vựng!');
   }
   localStorage.setItem('hanzi_saved_words', JSON.stringify(savedWords.value));
 };
@@ -1454,12 +1500,12 @@ const closeAddModal = () => { showAddModal.value = false; };
 
 const saveCustomWord = async () => {
   if (adminPass.value !== '111') {
-    showToast('❌ Mật khẩu không chính xác!');
+    showToast('Mật khẩu không chính xác!');
     return;
   }
   const form = newWordForm.value;
   if (!form.simplified.trim() || !form.pinyin.trim() || !form.vi.trim()) {
-    showToast('⚠️ Vui lòng điền đủ Chữ Hán, Pinyin và Nghĩa tiếng Việt!');
+    showToast('Vui lòng điền đủ Chữ Hán, Pinyin và Nghĩa tiếng Việt!');
     return;
   }
   
@@ -1506,12 +1552,12 @@ const saveCustomWord = async () => {
     });
     const result = await res.json();
     if (res.ok && result.success) {
-      showToast(`🎉 Đã lưu trực tiếp [${wordObj.simplified}] vào file JSON máy chủ!`);
+      showToast(`Đã lưu trực tiếp [${wordObj.simplified}] vào file JSON máy chủ!`);
     } else {
-      showToast(`⚠️ Đã lưu trên trình duyệt. Lỗi máy chủ: ${result.error || 'Không thể ghi file'}`);
+      showToast(`Đã lưu trên trình duyệt. Lỗi máy chủ: ${result.error || 'Không thể ghi file'}`);
     }
   } catch (err) {
-    showToast(`🎉 ${form.isEdit ? 'Cập nhật' : 'Thêm mới'} từ [${wordObj.simplified}] vào bộ nhớ thành công!`);
+    showToast(`${form.isEdit ? 'Cập nhật' : 'Thêm mới'} từ [${wordObj.simplified}] vào bộ nhớ thành công!`);
   }
   
   showAddModal.value = false;
