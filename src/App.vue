@@ -61,7 +61,7 @@
       </nav>
 
       <div class="header-actions" style="display:flex; align-items:center; gap:0.8rem;">
-        <button @click="openAddWordModal" class="btn btn-primary btn-sm btn-glow tooltip" data-tooltip="Thêm từ mới vào HSK (Pass: 111)" style="display:flex; align-items:center; gap:0.4rem; padding:0.4rem 0.8rem;">
+        <button @click="openAddWordModal" class="btn btn-primary btn-sm btn-glow tooltip" data-tooltip="Thêm từ mới vào HSK" style="display:flex; align-items:center; gap:0.4rem; padding:0.4rem 0.8rem;">
           <span>➕ Thêm từ</span>
         </button>
         <button @click="switchTab('dict')" class="icon-btn tooltip" data-tooltip="Sổ tay từ vựng">
@@ -119,7 +119,7 @@
             <div class="vocab-actions-bar" @click.stop>
               <button class="btn btn-primary btn-sm btn-practice-vocab" @click.stop="selectWord(word)">📖 Chi tiết</button>
               <button class="btn btn-icon btn-sm tooltip" data-tooltip="Nghe phát âm" @click.stop="speak(word.simplified)">🔊</button>
-              <button class="btn btn-icon btn-sm tooltip" data-tooltip="Chỉnh sửa từ (Pass: 111)" @click.stop="openEditWordModal(word, currentLevel)">✏️</button>
+              <button class="btn btn-icon btn-sm tooltip" data-tooltip="Chỉnh sửa từ" @click.stop="openEditWordModal(word, currentLevel)">✏️</button>
               <button class="btn btn-icon btn-sm bookmark-action tooltip" :class="{ saved: isSaved(word.simplified) }" data-tooltip="Lưu sổ tay" @click.stop="toggleBookmark(word.simplified)">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" :fill="isSaved(word.simplified) ? 'currentColor' : 'none'" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
               </button>
@@ -374,7 +374,7 @@
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
                       Chi tiết 📖
                     </button>
-                    <button class="btn btn-outline btn-sm tooltip" data-tooltip="Chỉnh sửa từ (Pass: 111)" @click.stop="openEditWordModal(w, w.level || 1)">
+                    <button class="btn btn-outline btn-sm tooltip" data-tooltip="Chỉnh sửa từ" @click.stop="openEditWordModal(w, w.level || 1)">
                       ✏️ Sửa từ
                     </button>
                     <button class="btn btn-outline btn-sm bookmark-action tooltip" :class="{ saved: isSaved(w.simplified || w.char) }" data-tooltip="Lưu sổ tay" @click.stop="toggleBookmark(w.simplified || w.char)">
@@ -445,7 +445,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
                     Chi tiết 📖
                   </button>
-                  <button class="btn btn-outline btn-sm tooltip" data-tooltip="Chỉnh sửa từ (Pass: 111)" @click.stop="openEditWordModal(w, w.level || 1)">
+                  <button class="btn btn-outline btn-sm tooltip" data-tooltip="Chỉnh sửa từ" @click.stop="openEditWordModal(w, w.level || 1)">
                     ✏️ Sửa từ
                   </button>
                   <button class="btn btn-outline btn-sm bookmark-action tooltip" :class="{ saved: isSaved(w.simplified) }" data-tooltip="Lưu sổ tay" @click.stop="toggleBookmark(w.simplified)">
@@ -628,7 +628,7 @@
       <div class="form-grid" style="display:flex; flex-direction:column; gap:1.2rem; text-align:left;">
         <div class="form-group">
           <label style="display:block; margin-bottom:0.4rem; color:#93c5fd; font-weight:bold;">🔑 Mã xác nhận (Mật khẩu)*</label>
-          <input v-model="adminPass" type="password" placeholder="Nhập mã bảo mật (Pass là 111)..." class="custom-input" style="width:100%; padding:0.8rem; border-radius:8px; border:1px solid rgba(255,255,255,0.2); background:rgba(0,0,0,0.5); color:white;">
+          <input v-model="adminPass" type="password" placeholder="Nhập mã bảo mật quản trị..." class="custom-input" style="width:100%; padding:0.8rem; border-radius:8px; border:1px solid rgba(255,255,255,0.2); background:rgba(0,0,0,0.5); color:white;">
         </div>
 
         <div style="display:grid; grid-template-columns: 1fr 1fr; gap:1rem;">
@@ -1452,9 +1452,9 @@ const openEditWordModal = (w, level = 1) => {
 
 const closeAddModal = () => { showAddModal.value = false; };
 
-const saveCustomWord = () => {
+const saveCustomWord = async () => {
   if (adminPass.value !== '111') {
-    showToast('❌ Mật khẩu không chính xác! (Pass là 111)');
+    showToast('❌ Mật khẩu không chính xác!');
     return;
   }
   const form = newWordForm.value;
@@ -1497,8 +1497,23 @@ const saveCustomWord = () => {
   }
   localStorage.setItem('hsk_custom_words', JSON.stringify(cwList));
   customWords.value = cwList;
+
+  try {
+    const res = await fetch('/api/save-word', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ pass: adminPass.value, level: lvl, wordObj })
+    });
+    const result = await res.json();
+    if (res.ok && result.success) {
+      showToast(`🎉 Đã lưu trực tiếp [${wordObj.simplified}] vào file JSON máy chủ!`);
+    } else {
+      showToast(`⚠️ Đã lưu trên trình duyệt. Lỗi máy chủ: ${result.error || 'Không thể ghi file'}`);
+    }
+  } catch (err) {
+    showToast(`🎉 ${form.isEdit ? 'Cập nhật' : 'Thêm mới'} từ [${wordObj.simplified}] vào bộ nhớ thành công!`);
+  }
   
-  showToast(`🎉 ${form.isEdit ? 'Cập nhật' : 'Thêm mới'} từ [${wordObj.simplified}] thành công!`);
   showAddModal.value = false;
 };
 
